@@ -74,13 +74,13 @@ function BlogPost({ postnum }) {
 
 function SideBar() {
   return (
-    <div className="w-1/6 border-r-2 border-r-gray-500 pt-5">
+    <div className="w-1/6 border-r-2 border-r-gray-500 pt-5 hidden md:block">
       <div className="flex flex-col justify-start h-full">
-        <Link to="/" className="p-5 ml-10">Home</Link>
-        <Link to="/academics" className="p-5 ml-10">Academics</Link>
-        <Link to="/workExperience" className="p-5 ml-10">Work Experience</Link>
-        <Link to="/projects" className="p-5 ml-10">Projects</Link>
-        <Link to="/blog" className="p-5 ml-10">Blog</Link>
+        <Link to="/" className="p-5 ">Home</Link>
+        <Link to="/academics" className="p-5 ">Academics</Link>
+        <Link to="/workExperience" className="p-5 ">Work Experience</Link>
+        <Link to="/projects" className="p-5 ">Projects</Link>
+        <Link to="/blog" className="p-5 ">Blog</Link>
       </div>
     </div>
   )

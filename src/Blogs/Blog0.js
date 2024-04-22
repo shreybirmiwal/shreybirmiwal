@@ -53,7 +53,7 @@ print("Memory of quantized matrix : " + str(calc_memory(qMatrix)))
             </div>
 
 
-            <img src="blog0.png" alt="Matrix Memory" className='my-5' style={{ width: '800px' }} />
+            <img src="/blog0.png" alt="Matrix Memory" className='my-5' style={{ width: '800px' }} />
 
 
             <div>
