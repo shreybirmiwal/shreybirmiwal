@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import Blog0 from './Blogs/Blog0';
+
+
 function App() {
   const [activeTab, setActiveTab] = useState('home');
 
@@ -61,45 +64,8 @@ function App() {
 
       case 'blog-0':
         return (
-          <div>
-            <h1 className='h1'>
-              [0] Simplified Quantization Program in Python
-            </h1>
-            <h2> 4/22/2024 - Shrey Birmiwal </h2>
-
-            <div className='mt-5'>
-              Hi, this is my first post about learning about LLMs. <br />
-              This is how I made an extremely simplified quantization example using python!<br /><br />
-              LLM models have an extremely large amount of parameters. For example, GPT3 has 175 billion parameters. This makes tuning the LLM to custom uses very expensive and intensive. One of the large expenses that this causes in fine tuning is gpu memory. <br />
-
-
-              Why? Here is an example of a matrix from a neural network:
-
-
-              .000012
-              21.20201994
-              .394123913
-              .3888820
-              .999333
-              .12234
-              .44421
-              .0200021
-              .00002
-              1.529
-              .0912
-              1.999999
-
-
-              Each entry in the matrix is a float, usually a float32.
-              In memory each float32 is contained like this:
-
-
-            </div>
-
-
-          </div>
+          <Blog0 />
         )
-
 
       default:
         return null;
@@ -107,12 +73,9 @@ function App() {
   };
 
   return (
-    <div className="flex font-mono">
-
-
-
-      <div className="w-1/6 h-screen border-r-2 border-r-gray-500 pt-5">
-        <div className="flex flex-col justify-center">
+    <div className="flex flex-grow font-mono min-h-screen">
+      <div className="w-1/6 border-r-2 border-r-gray-500 pt-5">
+        <div className="flex flex-col justify-start h-full"> {/* Change justify-center to justify-start */}
           <h1 className="p-5 ml-10" onClick={() => handleTabClick('home')}>Home</h1>
           <h1 className="p-5 ml-10" onClick={() => handleTabClick('academics')}>Academics</h1>
           <h1 className="p-5 ml-10" onClick={() => handleTabClick('workExperience')}>Work Experience</h1>
@@ -121,14 +84,11 @@ function App() {
         </div>
       </div>
 
-
-
-      <div className="w-5/6 h-screen border-l p-10">
+      <div className="w-5/6 p-10">
         {renderTabContent()}
       </div>
-
-
     </div>
+
   );
 
 }
