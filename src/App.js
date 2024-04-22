@@ -1,96 +1,104 @@
-import React, { useState } from 'react';
-
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
 
-
-function App() {
-  const [activeTab, setActiveTab] = useState('home');
-
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
-
-  const renderTabContent = () => {
-    switch (activeTab) {
-      case 'home':
-        return (
-          <div>
-            <h1 className='h1'>
-              Home
-            </h1>
-
-          </div>
-        )
-      case 'academics':
-        return (
-          <div>
-            <h1 className='h1'>
-              Academics
-            </h1>
-
-          </div>
-        )
-      case 'workExperience':
-        return (
-          <div>
-            <h1 className='h1'>
-              Work Experience
-            </h1>
-
-          </div>
-        )
-      case 'projects':
-        return (
-          <div>
-            <h1 className='h1'>
-              Projects
-            </h1>
-
-          </div>
-        )
-      case 'mlBlog':
-        return (
-          <div>
-            <h1 className='h1 mb-5'>
-              Blog
-            </h1>
-
-            <div className="text-blue-500 underline cursor-pointer flex flex-col space-y-2">
-              <a onClick={() => handleTabClick('blog-0')}> [0] Simplified Quantization Program in Python </a>
-            </div>
-
-          </div>
-        )
-
-      case 'blog-0':
-        return (
-          <Blog0 />
-        )
-
-      default:
-        return null;
-    }
-  };
-
+function Home() {
   return (
     <div className="flex flex-grow font-mono min-h-screen">
-      <div className="w-1/6 border-r-2 border-r-gray-500 pt-5">
-        <div className="flex flex-col justify-start h-full"> {/* Change justify-center to justify-start */}
-          <h1 className="p-5 ml-10" onClick={() => handleTabClick('home')}>Home</h1>
-          <h1 className="p-5 ml-10" onClick={() => handleTabClick('academics')}>Academics</h1>
-          <h1 className="p-5 ml-10" onClick={() => handleTabClick('workExperience')}>Work Experience</h1>
-          <h1 className="p-5 ml-10" onClick={() => handleTabClick('projects')}>Projects</h1>
-          <h1 className="p-5 ml-10" onClick={() => handleTabClick('mlBlog')}>Blog</h1>
-        </div>
-      </div>
-
+      <SideBar />
       <div className="w-5/6 p-10">
-        {renderTabContent()}
+        <h1 className='h1 mb-5'>Home</h1>
       </div>
     </div>
-
   );
+}
 
+function Academics() {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+      <SideBar />
+      <div className="w-5/6 p-10">
+        <h1 className='h1 mb-5'>Academics</h1>
+      </div>
+    </div>
+  );
+}
+
+function WorkExperience() {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+      <SideBar />
+      <div className="w-5/6 p-10">
+        <h1 className='h1 mb-5'>Work Experience</h1>
+      </div>
+    </div>
+  );
+}
+
+function Projects() {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+      <SideBar />
+      <div className="w-5/6 p-10">
+        <h1 className='h1 mb-5'>Projects</h1>
+      </div>
+    </div>
+  );
+}
+
+function Blog() {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+      <SideBar />
+      <div className="w-5/6 p-10">
+        <h1 className='h1 mb-5'>Blog</h1>
+        <div className="text-blue-500 underline cursor-pointer flex flex-col space-y-2">
+          <Link to="/blog/0">[0] Simplified Quantization Program in Python</Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BlogPost({ postnum }) {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+
+      <SideBar />
+      <div className="w-5/6 p-10">
+        {postnum == 0 && <Blog0 />}
+      </div>
+    </div>
+  );
+}
+
+function SideBar() {
+  return (
+    <div className="w-1/6 border-r-2 border-r-gray-500 pt-5">
+      <div className="flex flex-col justify-start h-full">
+        <Link to="/" className="p-5 ml-10">Home</Link>
+        <Link to="/academics" className="p-5 ml-10">Academics</Link>
+        <Link to="/workExperience" className="p-5 ml-10">Work Experience</Link>
+        <Link to="/projects" className="p-5 ml-10">Projects</Link>
+        <Link to="/blog" className="p-5 ml-10">Blog</Link>
+      </div>
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/academics" element={<Academics />} />
+        <Route path="/workExperience" element={<WorkExperience />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/0" element={<BlogPost postnum={0} />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
