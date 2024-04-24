@@ -8,10 +8,22 @@ function Home() {
       <SideBar />
       <div className="w-5/6 p-10">
         <h1 className='h1 mb-5'>Home</h1>
+
+        Hi, I am Shrey Birmiwal! <br />
+        <br />
+        I am from Austin Texas <br />
+        I am a junior in highschool <br />
+        I am passionate about blockchain, ml, and edtech and currently working on projects that combine them <br />
+
+        <img src="pfp.jpg" width={400} className="mt-5" />
+
       </div>
     </div>
   );
+
+
 }
+
 
 function Academics() {
   return (
