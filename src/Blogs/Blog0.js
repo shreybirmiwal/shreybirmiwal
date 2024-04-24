@@ -105,7 +105,7 @@ print("Memory of quantized matrix : " + str(calc_memory(qMatrix)))
 
                 <br /> <br />
                 Resources I used: <br />
-                <div className="text-blue-500 underline cursor-pointer flex flex-col">
+                <div className="  text-blue-500 underline cursor-pointer flex flex-col">
                     <a href='https://www.youtube.com/watch?v=t509sv5MT0w'>LoRA explained (and a bit about precision and quantization)</a>
                     <a href='https://www.youtube.com/watch?v=TPcXVJ1VSRI'>Understanding 4bit Quantization: QLoRA explained (w/ Colab)</a>
                     <a href='https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51#:~:text=Quantization%20is%20a%20compression%20technique,making%20it%20less%20memory%20intensive.'>What is Quantization in LLM</a>
