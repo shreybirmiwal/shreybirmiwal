@@ -73,7 +73,7 @@ function WorkExperience() {
         <div>
           <h2 className='h2 underline'> Jump Finance - Paid Software Intern</h2>
 
-          <h3 className='h3'> Summer 23 </h3>
+          <h3 className='h3'> Summer 2023 </h3>
           <h3 className='h3 mb-5'> Tags: EdTech, ReactJs, Full Stack Dev</h3>
 
           - Jump Finance provides loans for students in Ghana by working with universities <br />
@@ -86,7 +86,7 @@ function WorkExperience() {
         <div className='mt-10'>
           <h2 className='h2 underline'> Aspiring Students Directed Research (ASDRP) - Student Researcher</h2>
 
-          <h3 className='h3'> Summer 22 - Ongoing </h3>
+          <h3 className='h3'> Summer 2022 - Ongoing </h3>
           <h3 className='h3 mb-5'> Tags: Research, Python</h3>
 
           - Was accepted into a competitive research organization in California after an online application <br />
@@ -100,7 +100,7 @@ function WorkExperience() {
         <div className='mt-10'>
           <h2 className='h2 underline'> Convergent Forge (Org. at University of Texas) - Paid Intern</h2>
 
-          <h3 className='h3'> Summer 22 </h3>
+          <h3 className='h3'> Summer 2022 </h3>
           <h3 className='h3 mb-5'> Tags: EdTech </h3>
 
           - Convergent Forge is an organization partnership between computer science and business at the University of Texas that helps create apps for businesses <br />
@@ -134,7 +134,6 @@ function Blockchain() {
           - Founded club for people with interests in crypto and blockchain programming <br />
           - Became one of the fastest-growing club at high school with over <span text-bold>70 members in the first year</span> <br />
           - Partnered with the UT blockchain club to create opportunities in the TX blockchain incubator <br />
-          - Personally built various projects, such as a decentralized network of datalabelers, where people get paid tokens to label data and companies can buy+burn tokens to get their data labeled. Created a workplace task assignment app using Truffle and ReactJS to allow transparent and immutable labor division <br />
           <img src='blockchainClub.png' width={500} className='mt-5' />
         </div>
 
@@ -142,7 +141,7 @@ function Blockchain() {
         <div className='mt-10'>
           <h2 className='h2 underline'> txLabs - Member</h2>
 
-          <h3 className='h3'> School 23 - Ongoing </h3>
+          <h3 className='h3'> School 2023 - Ongoing </h3>
           <h3 className='h3 mb-5'> Tags: Solidity, ReactJS</h3>
 
           - Was invited to join the University of Texas txLabs competitive hackathon team after attending general meetings and became the <span className='font-bold'> only highschooler on the team ever </span><br />
@@ -153,25 +152,29 @@ function Blockchain() {
 
 
         <div className='mt-10'>
-          <h2 className='h2 underline'> Movement, txLabs</h2>
+          <h2 className='h2 underline'>Movement, txLabs</h2>
 
-          <h3 className='h3'> School 23 </h3>
+          <h3 className='h3'> School 2023 </h3>
           <h3 className='h3 mb-5'> Tags: Solidity, ReactJS </h3>
+          - Built a decentralized frame that runs on the Farcaster decentralized social media that allows users to create and join movements to raise awareness and funds for social causes <br />
+          - Competed at the <a className='text-blue-500 underline'> EthGlobal Frameworks Hackathon</a> with txLabs representing University of Texas and <span className='font-bold'>won 100$</span> for Dynamic Wallet Bounty<br />
 
-          - Convergent Forge is an organization partnership between computer science and business at the University of Texas that helps create apps for businesses <br />
-          - <span className='font-bold'>Led a team of college students </span> to create a website that enables students to sell products in an online mall quickly, and easily and handed off project to board of executives of JASET <br />
-          - Presented at the UT Convergent Expo in front of college students, professors, and companies <br />
+
+          <video src="movement.mp4" controls className='mt-5' width={800}></video>
+          <a href='https://github.com/shreybirmiwal/movement' className='underline text-blue-500 mt-3'>Github Repo</a>
         </div>
 
         <div className='mt-10'>
           <h2 className='h2 underline'> trainAI $TAT</h2>
 
-          <h3 className='h3'> School 23 </h3>
+          <h3 className='h3'> School 2023 </h3>
           <h3 className='h3 mb-5'> Tags: Solidity, ReactJS </h3>
+          - Built a platform for companies to connect companies trying to label their data with people who want to earn money by labeling data <br />
+          - Uses tokenization to provide incentives to a 'decentralized network' of data labelers <br />
 
-          - Convergent Forge is an organization partnership between computer science and business at the University of Texas that helps create apps for businesses <br />
-          - <span className='font-bold'>Led a team of college students </span> to create a website that enables students to sell products in an online mall quickly, and easily and handed off project to board of executives of JASET <br />
-          - Presented at the UT Convergent Expo in front of college students, professors, and companies <br />
+          <img src='TAT.jpeg' className='mt-5 border-4 border-black' width={800} ></img>
+          <a href='https://github.com/shreybirmiwal/trainAI/' className='underline text-blue-500 mt-3'>Github Repo</a>
+
         </div>
 
       </div>
