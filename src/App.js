@@ -31,6 +31,32 @@ function Academics() {
       <SideBar />
       <div className="w-5/6 p-10">
         <h1 className='h1 mb-5'>Academics</h1>
+
+        I am a junior (11th grade) at Westwood highschool in Austin Texas. I have a focus on Computer Science <br />
+
+        <br />
+        <h2 className='h2 underline'> Grades </h2>
+        GPA: 5.80/6.00 <br />
+        ACT: 35/36 <br />
+        PSAT: 1500/1520 <br />
+        Class Rank: 33/703 (6%)<br />
+
+        <br />
+        <h2 className='h2 underline'> Courses </h2>
+        AP Computer Science Principles - 5 on AP test <br />
+        AP Computer Science A - 5 on AP test <br />
+        AP Physics 1 - 5 on AP test <br />
+        AP Calculus AB - expect 5 on AP test <br />
+        AP Chemistry - expect 5 on AP test <br />
+        AP Statistics - expect 5 on AP test <br />
+
+        <br />
+        <h2 className='h2 underline'> Awards </h2>
+        USACO Silver Level <br />
+        Debate TFA State Qualification 2x <br />
+        Presidential Volunteering Service Award <br />
+
+
       </div>
     </div>
   );
@@ -42,8 +68,47 @@ function WorkExperience() {
       <SideBar />
       <div className="w-5/6 p-10">
         <h1 className='h1 mb-5'>Work Experience</h1>
+
+
+        <div>
+          <h2 className='h2 underline'> Jump Finance - Paid Software Intern</h2>
+
+          <h3 className='h3'> Summer 23 </h3>
+          <h3 className='h3 mb-5'> Tags: EdTech, ReactJs, Full Stack Dev</h3>
+
+          - Jump Finance provides loans for students in Ghana by working with universities <br />
+          - Start-to-finish solo-built an application, deposit, loan, and invoice system for over <span className='font-bold'> 900 students </span> in Ghana <br />
+          - Used ReactJS, NodeJS, and mySQL to build the application <br />
+          - Became the first intern and the only highschooler to be hired ever after applying through Convergent Forge UT
+        </div>
+
+
+        <div className='mt-10'>
+          <h2 className='h2 underline'> Aspiring Students Directed Research (ASDRP) - Student Researcher</h2>
+
+          <h3 className='h3'> Summer 22 - Ongoing </h3>
+          <h3 className='h3 mb-5'> Tags: Research, Python</h3>
+
+          - Was accepted into a competitive research organization in California after an online application <br />
+          - Creating a working research paper as the lead author over the usage of weighted score analysis done using Python on FDA-approved drugs to reduce the trial and error time when developing pharmaceutical drugs under Dr. Njoo and Prof. Downing affiliated with Stanford University <br />
+          - Presented the research findings at Southern California Conferences for Undergraduate Research in front of industry specialists, scientists, and PhD researchers <br />
+        </div>
+
+
+        <div className='mt-10'>
+          <h2 className='h2 underline'> Convergent Forge (Org. at University of Texas) - Paid Intern</h2>
+
+          <h3 className='h3'> Summer 22 </h3>
+          <h3 className='h3 mb-5'> Tags: EdTech </h3>
+
+          - Convergent Forge is an organization partnership between computer science and business at the University of Texas that helps create apps for businesses <br />
+          - <span className='font-bold'>Led a team of college students </span> to create a website that enables students to sell products in an online mall quickly, and easily and handed off project to board of executives of JASET <br />
+          - Presented at the UT Convergent Expo in front of college students, professors, and companies <br />
+        </div>
+
+
       </div>
-    </div>
+    </div >
   );
 }
 
