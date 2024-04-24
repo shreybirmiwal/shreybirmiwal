@@ -43,18 +43,18 @@ function Academics() {
 
         <br />
         <h2 className='h2 underline'> Courses </h2>
-        AP Computer Science Principles - 5 on AP test <br />
-        AP Computer Science A - 5 on AP test <br />
-        AP Physics 1 - 5 on AP test <br />
-        AP Calculus AB - expect 5 on AP test <br />
-        AP Chemistry - expect 5 on AP test <br />
-        AP Statistics - expect 5 on AP test <br />
+        AP Computer Science Principles          - 5 on AP test <br />
+        AP Computer Science A                   - 5 on AP test <br />
+        AP Physics 1                            - 5 on AP test <br />
+        AP Calculus AB                          - expect 5 on AP test <br />
+        AP Chemistry                            - expect 5 on AP test <br />
+        AP Statistics                           - expect 5 on AP test <br />
 
         <br />
         <h2 className='h2 underline'> Awards </h2>
         USACO Silver Level <br />
         Debate TFA State Qualification 2x <br />
-        Presidential Volunteering Service Award <br />
+        Presidential Volunteering Service Award Gold<br />
 
 
       </div>
@@ -169,7 +169,7 @@ function Blockchain() {
 
           <h3 className='h3'> School 2023 </h3>
           <h3 className='h3 mb-5'> Tags: Solidity, ReactJS </h3>
-          - Built a platform for companies to connect companies trying to label their data with people who want to earn money by labeling data <br />
+          - Built a platform to connect companies trying to label their data with people who want to earn money by labeling data <br />
           - Uses tokenization to provide incentives to a 'decentralized network' of data labelers <br />
 
           <img src='TAT.jpeg' className='mt-5 border-4 border-black' width={800} ></img>
@@ -188,6 +188,7 @@ function Projects() {
       <SideBar />
       <div className="w-5/6 p-10">
         <h1 className='h1 mb-5'>Projects</h1>
+        <h3 className='h3 italic'> Note: this is not a list of <span className='font-bold'>ALL</span> my projects, but the ones I am proud off. For a list of ALL projects I have done, <a href='/allprojects' className='underline text-blue-500'>click here.</a> (or at least the projects I could remember/find) <br /></h3>
       </div>
     </div>
   );
@@ -215,6 +216,18 @@ function BlogPost({ postnum }) {
       <SideBar />
       <div className="w-5/6 p-10">
         {postnum == 0 && <Blog0 />}
+      </div>
+    </div>
+  );
+}
+
+function AllProjects() {
+  return (
+    <div className="flex flex-grow font-mono min-h-screen">
+      <SideBar />
+      <div className="w-5/6 p-10">
+        <h1 className='h1 mb-5'>All Projects</h1>
+        [coming soon]
       </div>
     </div>
   );
@@ -252,6 +265,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/0" element={<BlogPost postnum={0} />} />
         <Route path="/blockchain" element={<Blockchain />} />
+        <Route path="/allprojects" element={<AllProjects />} />
 
       </Routes>
     </Router>
