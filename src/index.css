@@ -19,3 +19,13 @@ code {
 .h1 {
   font-size: 2rem;
 }
+
+.h2 {
+  font-size: 1.05rem;
+  font-weight: bold;
+
+}
+
+.h3 {
+  font-size: .9rem;
+}
