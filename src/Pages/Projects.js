@@ -54,9 +54,9 @@ function Projects() {
                     <h3 className='h3'> School 2024 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
 
-                    - Checkpoint.ai is an AI grading assistant that evaluates the student's work and not final answer
-                    - Allows teacher to give granular feedback on what steps the student missed in a problem AND have class analytics on common mistakes
-                    - Simply upload an image of the correct work and Checkpoint.ai will grade the student's work based on the steps taken to get to the answer
+                    - Checkpoint.ai is an AI grading assistant that evaluates the student's work and not final answer <br />
+                    - Allows teacher to give granular feedback on what steps the student missed in a problem AND have class analytics on common mistakes <br />
+                    - Simply upload an image of the correct work and Checkpoint.ai will grade the student's work based on the steps taken to get to the answer <br />
 
 
                     <video src="checkpointAI.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
@@ -98,7 +98,7 @@ function Projects() {
                     <h3 className='h3'> School 2023 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
                     - A website that allows students to rate judges in HS debate tournaments <br />
-                    - Enables more fair debate judging through shared information pool about judge preferences (useful for judge strikes, etc)
+                    - Enables more fair debate judging through shared information pool about judge preferences (useful for judge strikes, etc) <br />
                     <video src="ratemyjudge.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
                     <a href='https://github.com/shreybirmiwal/ratemyjudge' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
                     <a href='https://www.ratemyjudge.xyz/' className=' underline text-blue-500 mt-3'>Try now!</a>
