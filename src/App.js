@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
-import SideBar from './Components/SideBar';
+import SideBar from './Components/Sidebar';
 import Academics from './Pages/Academics';
 import WorkExperience from './Pages/WorkExperience';
 import Projects from './Pages/Projects';

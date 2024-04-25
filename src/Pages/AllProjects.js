@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import SideBar from '../Components/SideBar';
+import SideBar from '../Components/Sidebar';
 
 function AllProjects() {
     return (

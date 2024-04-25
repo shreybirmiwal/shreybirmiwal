@@ -1,5 +1,5 @@
 import React from 'react'
-import SideBar from '../Components/SideBar';
+import SideBar from '../Components/Sidebar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Blog() {
