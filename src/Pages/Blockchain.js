@@ -19,7 +19,6 @@ function Blockchain() {
 
                     - Founded club for people with interests in crypto and blockchain programming <br />
                     - Became one of the fastest-growing club at high school with over <span text-bold>70 members in the first year</span> <br />
-                    - Partnered with the UT blockchain club to create opportunities in the TX blockchain incubator <br />
                     <img src='blockchainClub.png' width={500} className='mt-5' />
                 </div>
 

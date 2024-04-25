@@ -64,6 +64,8 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
           <Route path="/blockchain" element={<Blockchain />} />
+          <Route path="/allprojects" element={<AllProjects />} />
+
         </Routes>
       </div>
     </Router>
