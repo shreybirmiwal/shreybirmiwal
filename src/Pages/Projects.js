@@ -22,8 +22,8 @@ function Projects() {
                     - Earned the gold presidential service volunteer award by Americorp for the app <br />
 
                     <div class='flex flex-col md:flex-row mt-5'>
-                        <img src='locker-2.png' class='border-2 border-black mr-0 md:mr-5 mb-5 md:mb-0' width='500' style={{ maxWidth: '100%' }}></img>
-                        <video src="trackitnow.mp4" controls class='mt-5' width='800' style={{ maxWidth: '100%' }}></video>
+                        <img src='locker-2.png' class='border-2 border-black mr-0 md:mr-5 mb-5 md:mb-0 w-1/2' style={{ maxWidth: '100%' }}></img>
+                        <video src="trackitnow.mp4" controls class='mt-5 w-1/2' className='border-black border-2'></video>
                     </div>
 
                     <a href='https://github.com/shreybirmiwal/trackitnow' className='underline text-blue-500 mt-3'>Github Repo</a>
@@ -34,6 +34,12 @@ function Projects() {
                     <h2 className='h2 underline'>inSight Chrome extension</h2>
                     <h3 className='h3'> School 2022 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
+                    - A chrome extension that uses NLP to analyze text on a webpage and generate/find an image representing it <br />
+                    - Aims to help students learn better by providing visual representation of text <br />
+
+                    <img src='insight.gif' class='border-2 border-black mt-5'></img>
+                    <a href='https://github.com/shreybirmiwal/inSight-Chrome-Extension' className=' underline text-blue-500 mt-3'>Github Repo</a>
+
                 </div>
 
 
@@ -69,7 +75,7 @@ function Projects() {
 
 
             </div>
-        </div>
+        </div >
     );
 }
 
