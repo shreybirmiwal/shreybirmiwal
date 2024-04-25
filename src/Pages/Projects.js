@@ -34,6 +34,12 @@ function Projects() {
                     <h2 className='h2 underline'>inSight Chrome extension</h2>
                     <h3 className='h3'> School 2022 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
+
+                    - inSight Chrome extension visualizes text in articles within the web browser
+                    - Automatically, as you browse the web, inSight will use NLP to first determine important keywords, then find a relevant image to display in the margins of the webpage itself.
+
+                    <video src="trackitnow.mp4" controls class='mt-5' width='800' style={{ maxWidth: '100%' }}></video>
+
                 </div>
 
 
