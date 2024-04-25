@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
 function SideBar() {
     return (
         <div className="w-1/6 border-r-2 border-r-gray-500 pt-5 hidden md:block">
@@ -13,6 +12,7 @@ function SideBar() {
                     <Link to="/projects" className="p-5 ">Projects</Link>
                     <Link to="/blockchain" className="p-5 ">Blockchain</Link>
                     <Link to="/blog" className="p-5 ">Blog</Link>
+
                 </div>
             </div>
 
