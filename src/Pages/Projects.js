@@ -1,12 +1,9 @@
 import React from 'react'
 import SideBar from '../Sidebar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { useState } from 'react';
-import ReactSimplyCarousel from 'react-simply-carousel';
 
 
 function Projects() {
-    const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
 
     return (
@@ -60,6 +57,8 @@ function Projects() {
 
 
                     <video src="checkpointAI.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <a href='https://github.com/shreybirmiwal/checkpoint.ai' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
+                    <a href='https://checkpoint-ai.vercel.app/' className=' underline text-blue-500 mt-3'>Try now!</a>
 
 
                 </div>
@@ -73,7 +72,7 @@ function Projects() {
                     - Edualize enables teachers to create interactive, 3d, quiz/homework assignments for students <br />
 
                     <video src="edualize.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
-
+                    <a href='https://github.com/shreybirmiwal/Edualize' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
                 </div>
 
 
