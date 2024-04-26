@@ -23,7 +23,7 @@ function WorkExperience() {
                 </div>
 
 
-                <div className='mt-10'>
+                {/* <div className='mt-10'>
                     <h2 className='h2 underline'> Aspiring Students Directed Research (ASDRP) - Student Researcher</h2>
 
                     <h3 className='h3'> Summer 2022 - Ongoing </h3>
@@ -34,7 +34,7 @@ function WorkExperience() {
                     - Presented the research findings at Southern California Conferences for Undergraduate Research in front of industry specialists, scientists, and PhD researchers <br />
 
                     <img src='asdrp.jpg' className='mt-5' width={500} ></img>
-                </div>
+                </div> */}
 
 
                 <div className='mt-10'>
