@@ -19,6 +19,7 @@ function Blockchain() {
 
                     - Founded club for people with interests in crypto and blockchain programming <br />
                     - Became one of the fastest-growing club at high school with over <span text-bold>70 members in the first year</span> <br />
+                    - Led meetings teaching blockchain concepts and hosted events such as 'pitch competititon' <br />
                     <img src='blockchainClub.png' width={500} className='mt-5' />
                 </div>
 

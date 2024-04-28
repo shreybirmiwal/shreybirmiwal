@@ -23,7 +23,7 @@ function Projects() {
                     <h3 className='h3'> School 2023 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech, ReactJS, Firebase </h3>
                     - 'The Locker' is a nonprofit organization that recieves, manages, and distributes donations such as notebooks and backpacks for students<br />
-                    - Built an app with a database to keep track of these donations with data analytics after noticing tedious bookeeping practices <br />
+                    - Built an edtech app with a database to keep track of these donations with data analytics after noticing tedious bookeeping practices <br />
                     - Pitched to various schools and districts. Currently used by Westwood HS branch and Georgetown HS branch <span className='font-bold'>managing 15,000$ of donations!</span> <br />
                     - Earned the gold presidential service volunteer award by Americorp for the app <br />
 
@@ -54,7 +54,7 @@ function Projects() {
                     <h3 className='h3'> School 2024 </h3>
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
 
-                    - Checkpoint.ai is an AI grading assistant that evaluates the student's work and not final answer <br />
+                    - Checkpoint.ai is an edtech AI grading assistant that evaluates the student's work and not final answer <br />
                     - Allows teacher to give granular feedback on what steps the student missed in a problem AND have class analytics on common mistakes <br />
                     - Simply upload an image of the correct work and Checkpoint.ai will grade the student's work based on the steps taken to get to the answer <br />
 
