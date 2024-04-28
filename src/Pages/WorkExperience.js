@@ -17,11 +17,10 @@ function WorkExperience() {
                     <h3 className='h3 mb-5'> Tags: EdTech, ReactJs, Full Stack Dev</h3>
 
                     - Jump Finance provides loans for students in Ghana by working with universities <br />
-                    - Start-to-finish solo-built an application, deposit, loan, and invoice system for over <span className='font-bold'> 900 students </span> in Ghana <br />
+                    - Start-to-finish solo-built an application, deposit, loan, and invoice system to enable over <span className='font-bold'> 900 students </span> in Ghana to afford University <br />
                     - Used ReactJS, NodeJS, and mySQL to build the application <br />
                     - Became the first intern and the <span className='font-bold'>only highschooler</span> to be hired ever after applying through Convergent Forge UT
                 </div>
-
 
                 <div className='mt-10'>
                     <h2 className='h2 underline'> Aspiring Students Directed Research (ASDRP) - Student Researcher</h2>
