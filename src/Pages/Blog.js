@@ -10,6 +10,8 @@ function Blog() {
                 <h1 className='h1 mb-5'>Blog</h1>
                 <div className="text-blue-500 underline cursor-pointer flex flex-col space-y-2">
                     <Link to="/blog/0">[0] Simplified Quantization Program in Python</Link>
+                    <Link to="/blog/1">[1] Simplified Back Propagation in native Python</Link>
+
                 </div>
             </div>
         </div>

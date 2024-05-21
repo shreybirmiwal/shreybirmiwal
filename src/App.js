@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
+import Blog1 from './Blogs/Blog1';
 import SideBar from './Sidebar';
 import Academics from './Pages/Academics';
 import WorkExperience from './Pages/WorkExperience';
@@ -17,6 +18,8 @@ function BlogPost({ postnum }) {
       <SideBar />
       <div className="w-5/6 p-10">
         {postnum === 0 && <Blog0 />}
+        {postnum === 1 && <Blog1 />}
+
       </div>
     </div>
   );
@@ -63,6 +66,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
+          <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blockchain" element={<Blockchain />} />
           <Route path="/allprojects" element={<AllProjects />} />
 
