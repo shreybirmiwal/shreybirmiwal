@@ -29,6 +29,64 @@ def getLoss(m, b):
     
     return overall_loss`
 
+    const code3 = `loss = 999
+learning_rate = 0.0001
+epoch = 0
+
+while loss > 1:
+    loss = getLoss(m, b)
+    print("Loss: ", loss, "m: ", m, "b: ", b, "Epoch: ", epoch)
+
+    dm_respect_to_loss = (getLoss(m + 0.01, b) - getLoss(m, b)) / 0.01
+    db_respect_to_loss = (getLoss(m, b + 0.01) - getLoss(m, b)) / 0.01
+
+    m -= dm_respect_to_loss * learning_rate
+    b -= db_respect_to_loss * learning_rate
+
+    epoch += 1`
+
+    const code4 = `import random
+
+#random data with a negative linear relationship (i just asked gpt to generate these nums)
+x = [2.5, 3.1, 3.8, 4.2, 4.7, 5.1, 5.5, 5.9, 6.3, 6.8, 7.2, 7.6, 8.1, 8.5, 9.0, 9.4]
+y = [11.5, 10.8, 9.5, 8.3, 7.8, 7.2, 6.9, 6.1, 5.7, 5.1, 4.9, 4.2, 3.8, 3.1, 2.7, 2.1]
+
+def getLoss(m, b):
+    overall_loss = 0
+
+    #loop through each data point, determine how far away the predicted y value is from the actual y value and add the loss to overall loss
+    for i in range(len(x)):
+        x_val = x[i]
+        y_val = y[i]
+        predicted_y = m * x_val + b
+        loss = abs(predicted_y - y_val)
+        overall_loss += loss
+
+    
+    return overall_loss
+
+
+
+m = random.uniform(-10, 10) #slope (weight) (m)
+b = random.uniform(-10, 10) #y intercept (bias) (b)
+
+loss = 999
+learning_rate = 0.0001
+epoch = 0
+
+while loss > 1:
+    loss = getLoss(m, b)
+    print("Loss: ", loss, "m: ", m, "b: ", b, "Epoch: ", epoch)
+
+    dm_respect_to_loss = (getLoss(m + 0.01, b) - getLoss(m, b)) / 0.01
+    db_respect_to_loss = (getLoss(m, b + 0.01) - getLoss(m, b)) / 0.01
+
+    m -= dm_respect_to_loss * learning_rate
+    b -= db_respect_to_loss * learning_rate
+
+    epoch += 1
+`
+
     return (
         <div>
             <h1 className='h1'>
@@ -73,14 +131,35 @@ def getLoss(m, b):
 
                 This is important because if you KNOW that increasing the weight will decrease the loss, you can simply increase the weight until the loss is close to 0 (perfect model). <br />
 
+                <img src='/blog1/fig3.png' style={{ width: '500px' }} className='border-black border my-5'></img>
+                <SyntaxHighlighter language="python" style={darcula}>{code3}</SyntaxHighlighter>
 
+                <br />
+
+                The key part here is the 'dm_respect_to_loss' and 'db_respect_to_loss' <br />
+                which describe how the loss changes if we increase the weight or bias by a small amount. <br />
+                If the loss decreases, we know that we should increase the weight/bias, and if the loss increases, we know we should decrease the weight/bias. <br />
+
+                Thus, in the next step, we simply update the weight and bias by a small amount in the direction that decreases the loss. <br />
+
+                <br />
+                Here it is in action! You can see in the video, the loss starts very high (due to the random initial weight/bias) and then steadily decreases until it reaches a 'line of best fit' for our dataset!
+                <br /> <br />
+                <video width="600" controls src='/blog1/fig4.mp4' />
+
+                <br />
+
+                The full code is here:
+                <SyntaxHighlighter language="python" style={darcula}>{code4}</SyntaxHighlighter>
+
+
+                <br />
+                Let's go! Thanks for reading. <br /> <br />
 
 
                 Resources I used: <br />
                 <div className="  text-blue-500 underline cursor-pointer flex flex-col">
-                    <a href='https://www.youtube.com/watch?v=t509sv5MT0w'>LoRA explained (and a bit about precision and quantization)</a>
-                    <a href='https://www.youtube.com/watch?v=TPcXVJ1VSRI'>Understanding 4bit Quantization: QLoRA explained (w/ Colab)</a>
-                    <a href='https://medium.com/@techresearchspace/what-is-quantization-in-llm-01ba61968a51#:~:text=Quantization%20is%20a%20compression%20technique,making%20it%20less%20memory%20intensive.'>What is Quantization in LLM</a>
+                    <a href='https://www.youtube.com/watch?v=IN2XmBhILt4'>Back Propagation explained</a>
                 </div>
 
             </div>
