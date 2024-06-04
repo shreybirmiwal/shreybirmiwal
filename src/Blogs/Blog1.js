@@ -108,7 +108,7 @@ while loss > 1:
                 We simply need to find the m and b that best fits the data. <br /> <br />
                 In more technical terms, the SLOPE or M is called the weight, and the y-intercept, or B is the BIAS <br />
 
-                Usually, real neural networks work on more complex datasets, and thus have things such as hidden layers, activation functions and more to be able to work on more complex data. Since we only use 1 weight and bias, we have only 1 layer, and thus our neual network will only be able to solve for a y = mx + b linear relationship. <br />
+                Usually, real neural networks work on more complex datasets, and thus have things such as hidden layers, activation functions and more to be able to work on more complex data. Since we only use 1 weight and bias, we have only 1 layer, and thus our neural network will only be able to solve for a y = mx + b linear relationship. <br />
 
 
                 Here is how we will approach this problem:
@@ -127,7 +127,7 @@ while loss > 1:
                 <br />
 
                 In extremely simple words, we want to see 'if you change the weight +.01, will the loss increase or decrease?' (and same for bias) <br />
-                In math terms, we are finding the dirrivite of the loss function with respect to the weight. (and same for bias)<br /> <br />
+                In math terms, we are finding the derivate of the loss function with respect to the weight. (and same for bias)<br /> <br />
 
                 This is important because if you KNOW that increasing the weight will decrease the loss, you can simply increase the weight until the loss is close to 0 (perfect model). <br />
 

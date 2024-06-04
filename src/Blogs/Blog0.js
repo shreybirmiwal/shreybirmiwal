@@ -61,7 +61,7 @@ print("Memory of quantized matrix : " + str(calc_memory(qMatrix)))
                 You can see that it requires 32 bits because 1 bit is allocated to determine the sign of the float, 8 bits to the exponent, and 23 bits to the fraction.
                 This means that in order to store a large matrix with a lot of float32, we need a lot of memory. This makes it very hard to fine tune / edit these LLM’s on local machines w/relatively weak GPUs. <br /><br />
 
-                If we can decrease the amount of bits required per matrix, we can decrease the amount of memory required significantly. Thus, one solution is to use quantization to abstract each entry from a float32 to something like a int8. We can do this though basic math (in this just simplified to multiplication, while the real quantization is much more complicated). Note that quantimation leads to lossy data because we loose precision as a tradeoff for performace.
+                If we can decrease the amount of bits required per matrix, we can decrease the amount of memory required significantly. Thus, one solution is to use quantization to abstract each entry from a float32 to something like a int8. We can do this though basic math (in this just simplified to multiplication, while the real quantization is much more complicated). Note that quantitation leads to lossy data because we loose precision as a tradeoff for performance.
 
                 <br /> <br />
                 Here’s the full code:

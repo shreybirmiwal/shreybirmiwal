@@ -11,6 +11,7 @@ import Blockchain from './Pages/Blockchain';
 import Home from './Pages/Home';
 import Ideas from './Pages/Ideas';
 import AllProjects from './Pages/AllProjects';
+import Blog2 from './Blogs/Blog2';
 
 function BlogPost({ postnum }) {
   return (
@@ -19,6 +20,7 @@ function BlogPost({ postnum }) {
       <div className="w-5/6 p-10">
         {postnum === 0 && <Blog0 />}
         {postnum === 1 && <Blog1 />}
+        {postnum === 2 && <Blog2 />}
 
       </div>
     </div>
@@ -67,6 +69,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
+          <Route path="/blog/2" element={<BlogPost postnum={2} />} />
           <Route path="/blockchain" element={<Blockchain />} />
           <Route path="/allprojects" element={<AllProjects />} />
 
