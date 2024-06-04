@@ -105,6 +105,18 @@ function Projects() {
                 </div>
 
 
+                <div className='mt-10'>
+                    <h2 className='h2 underline'>Memary</h2>
+                    <h3 className='h3'> Summer 2024 </h3>
+                    <h3 className='h3 mb-5'> Tags: ML, Opensource </h3>
+                    - Memary is a python machine learning agent that has long term memory through the usage of a knowledge graph and a RAG system <br />
+                    - I contributed a tool enabler and selector using llamaIndex for the agent as shown in the video <br />
+
+                    <video src="memary.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <a href='https://github.com/kingjulio8238/memary/pull/26' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
+                </div>
+
+
             </div>
         </div >
     );

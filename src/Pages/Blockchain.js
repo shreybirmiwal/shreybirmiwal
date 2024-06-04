@@ -36,6 +36,33 @@ function Blockchain() {
                     <img src='ut.png' width={500} className='mt-5'></img>
                 </div>
 
+                <div className='mt-10'>
+                    <h2 className='h2 underline'>CSL Summer Intern - ChainHub Foundation</h2>
+
+                    <h3 className='h3'> Summer 2024 </h3>
+                    <h3 className='h3 mb-5'> Tags: Solidity, Startups </h3>
+                    - CSL program is a 6-week incubator program that is one of the most successful incubators for blockchain and AI startups in the world having hosted multiple now billion dollar companies just last year alone <br />
+                    - Interned as a logistics manager for the program and helped organize the program, such as set up meetings, plan guest speakers, and organize schedules <br />
+                    - Worked with genius engineers and VC managers from MIT to UT and was inspired firsthand  <br />
+                </div>
+
+
+                <div className='mt-10'>
+                    <h2 className='h2 underline'>CryptoClash, txLabs</h2>
+
+                    <h3 className='h3'> Summer 2024 </h3>
+                    <h3 className='h3 mb-5'> Tags: Solidity, Unity </h3>
+                    - Built a 3d Multiplayer boxing game in the MONAVERSE metaverse where users can equip skins, weapons, and maps (nfts!) <br />
+                    - Competed at the <a className='text-blue-500 underline'> EthGlobal HackFS Hackathon</a> with txLabs representing University of Texas. <br /> <br />
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PpnPVjxfugs?si=FpxkMtcxKOhHJnbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <a href='https://rambamamba.itch.io/cryptoclash' className='underline text-blue-500 mt-3'>Game Link</a> <br />
+                    <a href='https://github.com/shreybirmiwal/CryptoClash-HackFS2024' className='underline text-blue-500 mt-3'>Github Repo</a> <br />
+                    <a href='https://ethglobal.com/showcase/cryptoclash-w3bnj' className='underline text-blue-500 mt-3'>Submission Link</a>
+
+                </div>
+
 
                 <div className='mt-10'>
                     <h2 className='h2 underline'>Movement, txLabs</h2>
@@ -59,6 +86,11 @@ function Blockchain() {
                     - Uses tokenization to provide incentives to a 'decentralized network' of data labelers <br />
 
                     <img src='TAT.jpeg' className='mt-5 border-4 border-black' width={800} ></img>
+                    <br />
+                    <br />
+                    - Also pitch the idea to VC's and founders at Consensus 2024 opening party <br />
+                    <video src="consensus_pitch.mp4" controls className='mt-5' width={800}></video>
+
                     <a href='https://github.com/shreybirmiwal/trainAI/' className='underline text-blue-500 mt-3'>Github Repo</a>
 
                 </div>

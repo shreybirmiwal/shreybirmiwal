@@ -116,10 +116,22 @@ while loss > 1:
 
                 Here is a website I created to demonstrate:
 
-                <
+                <br />
 
 
-                    Let's go! Thanks for reading. <br /> <br />
+                <div className="  text-blue-500 underline cursor-pointer flex flex-col">
+
+                    <a href='https://fedlearning.vercel.app/'>Link to website</a>
+                </div>
+
+                <video src="/blog2/fig5.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                <br /> <br />
+
+                You can see how each client uses their own data to create it's own model. Than, the main server aggregates the models to create a final model. <br />
+                Soon I will update this blog with more details on the code.
+
+                <br /> <br />
+                Let's go! Thanks for reading. <br /> <br />
 
 
                 Resources I used: <br />
@@ -136,7 +148,7 @@ while loss > 1:
                 <div className="  text-blue-500 underline cursor-pointer flex flex-col">
                     <a href='https://fedlearning.vercel.app/'>Website (try it out!)</a>
                     <a href='https://github.com/shreybirmiwal/fedlearning'>Github Code</a>
-                    <a href='https://www.youtube.com/watch?v=IN2XmBhILt4'>Tweet</a>
+                    <a href='https://x.com/shreybirmiwal/status/1797842767361757561'>Tweet</a>
                 </div>
 
             </div>
