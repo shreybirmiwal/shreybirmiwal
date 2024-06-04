@@ -17,6 +17,26 @@ function Projects() {
                 <h3 className='h3 italic'> Note: this is not a list of <span className='font-bold'>ALL</span> my projects, but the ones I am proud of. For a list of ALL projects I have done, <a href='/allprojects' className='underline text-blue-500'>click here.</a> (or at least the projects I could remember/find) <br /></h3>
 
 
+                <div className='mt-10'>
+                    <h2 className='h2 underline'>Federated Learning Demo</h2>
+                    <h3 className='h3'> Summer 2023 </h3>
+                    <h3 className='h3 mb-5'> Tags: ML, ReactJS </h3>
+                    - Federated learning is a method of training a machine learning model without sharing data to a central server<br />
+                    - Build a demo website to simulate 3 clients pooling data to create a federated model without leaking data to each other or a central server <br />
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aflfj00Rc-w?si=nmmPtBINmHhehitb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <br />
+
+
+                    <div className="  text-blue-500 underline cursor-pointer flex flex-col">
+                        <a href='https://fedlearning.vercel.app/'>Website (try it out!)</a>
+                        <a href='/blog/2'>Blog post</a>
+                        <a href='https://github.com/shreybirmiwal/fedlearning'>Github Code</a>
+                        <a href='https://x.com/shreybirmiwal/status/1797842767361757561'>Tweet</a>
+                    </div>
+
+                </div>
+
+
 
                 <div className='mt-10'>
                     <h2 className='h2 underline'>TrackItNow - The Locker</h2>
@@ -42,7 +62,7 @@ function Projects() {
                     - A chrome extension that uses NLP to analyze text on a webpage and generate/find an image representing it <br />
                     - Aims to help students learn better by providing visual representation of text <br />
 
-                    <video src="inSight.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <video src="inSight.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video> <br />
                     <a href='https://github.com/shreybirmiwal/inSight-Chrome-Extension' className=' underline text-blue-500 mt-3'>Github Repo</a>
 
                 </div>
@@ -59,7 +79,7 @@ function Projects() {
                     - Simply upload an image of the correct work and Checkpoint.ai will grade the student's work based on the steps taken to get to the answer <br />
 
 
-                    <video src="checkpointAI.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <video src="checkpointAI.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video> <br />
 
 
                 </div>
@@ -72,7 +92,7 @@ function Projects() {
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
                     - Edualize enables teachers to create interactive, 3d, quiz/homework assignments for students <br />
 
-                    <video src="edualize.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <video src="edualize.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video> <br />
 
                 </div>
 
@@ -99,7 +119,7 @@ function Projects() {
                     <h3 className='h3 mb-5'> Tags: EdTech </h3>
                     - A website that allows students to rate judges in HS debate tournaments <br />
                     - Enables more fair debate judging through shared information pool about judge preferences (useful for judge strikes, etc) <br />
-                    <video src="ratemyjudge.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <video src="ratemyjudge.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>  <br />
                     <a href='https://github.com/shreybirmiwal/ratemyjudge' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
                     <a href='https://www.ratemyjudge.xyz/' className=' underline text-blue-500 mt-3'>Try now!</a>
                 </div>
@@ -112,7 +132,7 @@ function Projects() {
                     - Memary is a python machine learning agent that has long term memory through the usage of a knowledge graph and a RAG system <br />
                     - I contributed a tool enabler and selector using llamaIndex for the agent as shown in the video <br />
 
-                    <video src="memary.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
+                    <video src="memary.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>  <br />
                     <a href='https://github.com/kingjulio8238/memary/pull/26' className=' underline text-blue-500 mt-3'>Github Repo <br /></a>
                 </div>
 

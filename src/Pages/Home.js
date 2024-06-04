@@ -12,10 +12,17 @@ function Home() {
                 Hi, I am Shrey Birmiwal! <br />
                 <br />
                 I am from Austin Texas <br />
-                I am a junior in highschool <br />
-                I am passionate about blockchain, ml, and edtech and am currently building projects in that space <br />
+                I am a rising senior in highschool <br />
+                I am passionate about machine learning, blockchain, and edtech and am currently building projects in that space <br />
 
-                <img src="pfp.jpg" width={400} className="mt-5" />
+                <img src="pfp.jpg" width={400} className="my-5" />
+
+                <div className='flex flex-row'>
+                    <a href='https://x.com/shreybirmiwal'><img src="twitter.png" width={30} className="my-5" /></a>
+                    <a href='https://github.com/shreybirmiwal'><img src="github.png" width={30} className="my-5 ml-3" /></a>
+                    <p className='my-6 ml-3'>shreybirmiwal@gmail.com</p>
+                </div>
+
 
             </div>
         </div>

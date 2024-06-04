@@ -124,8 +124,7 @@ while loss > 1:
                     <a href='https://fedlearning.vercel.app/'>Link to website</a>
                 </div>
 
-                <video src="/blog2/fig5.mp4" controls width='800' style={{ maxWidth: '100%' }} className='border-2 border-black mt-5'></video>
-                <br /> <br />
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aflfj00Rc-w?si=nmmPtBINmHhehitb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <br /> <br />
 
                 You can see how each client uses their own data to create it's own model. Than, the main server aggregates the models to create a final model. <br />
                 Soon I will update this blog with more details on the code.

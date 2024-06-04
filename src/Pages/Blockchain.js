@@ -89,8 +89,7 @@ function Blockchain() {
                     <br />
                     <br />
                     - Also pitch the idea to VC's and founders at Consensus 2024 opening party <br />
-                    <video src="consensus_pitch.mp4" controls className='mt-5' width={800}></video>
-
+                    <iframe width="448" height="796" src="https://www.youtube.com/embed/jRFnrf2Gi6s" title="Consensus Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <a href='https://github.com/shreybirmiwal/trainAI/' className='underline text-blue-500 mt-3'>Github Repo</a>
 
                 </div>
