@@ -32,6 +32,7 @@ function Blockchain() {
 
                     - Was invited to join the University of Texas txLabs competitive hackathon team after attending general meetings and became the <span className='font-bold'> only highschooler on the team ever </span><br />
                     - Competed at various hackathons representing the University of Texas <br />
+                    - Won over 6,000$ of prize money under the team<br />
 
                     <img src='ut.png' width={500} className='mt-5'></img>
                 </div>
@@ -53,7 +54,15 @@ function Blockchain() {
                     <h3 className='h3'> Summer 2024 </h3>
                     <h3 className='h3 mb-5'> Tags: Solidity, Unity </h3>
                     - Built a 3d Multiplayer boxing game in the MONAVERSE metaverse where users can equip skins, weapons, and maps (nfts!) <br />
-                    - Competed at the <a className='text-blue-500 underline'> EthGlobal HackFS Hackathon</a> with txLabs representing University of Texas. <br /> <br />
+                    - Competed at the <a className='text-blue-500 underline'> EthGlobal HackFS Hackathon</a> with txLabs representing University of Texas. <br />
+                    - Placed as a finalist during the hackathon, and won 500$ per person, a free hoodie, ledger nano, 500$ in travel credits and free tickets to any ethGlobal event (ethDenver, ethSF, etc) <br />
+                    - Placed first in the grand prize of 5,000$ from MONA for best gaming build utilizing the MONAVERSE <br />
+                    <br />
+
+                    <img src='/blockchain/fig1.png' className='mt-5' width={500}></img>
+
+                    <br />
+                    <br />
 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PpnPVjxfugs?si=FpxkMtcxKOhHJnbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -87,8 +96,8 @@ function Blockchain() {
 
                     <img src='TAT.jpeg' className='mt-5 border-4 border-black' width={800} ></img>
                     <br />
-                    <br />
-                    - Also pitch the idea to VC's and founders at Consensus 2024 opening party <br />
+                    - Also pitched the idea to VC's and founders at Consensus 2024 opening party <br />                    <br />
+
                     <iframe width="448" height="796" src="https://www.youtube.com/embed/jRFnrf2Gi6s" title="Consensus Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <a href='https://github.com/shreybirmiwal/trainAI/' className='underline text-blue-500 mt-3'>Github Repo</a>
 
