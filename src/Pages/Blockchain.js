@@ -1,6 +1,7 @@
 import React from 'react'
 import SideBar from '../Sidebar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Tweet } from 'react-tweet'
 
 function Blockchain() {
     return (
@@ -34,7 +35,7 @@ function Blockchain() {
                     - Competed at various hackathons representing the University of Texas <br />
                     - Won over 6,000$ of prize money under the team<br />
 
-                    <img src='ut.png' width={500} className='mt-5'></img>
+                    <Tweet id="1770036214860489163" />
                 </div>
 
                 <div className='mt-10'>
@@ -62,9 +63,8 @@ function Blockchain() {
                     <img src='/blockchain/fig1.png' className='mt-5' width={500}></img>
 
                     <br />
-                    <br />
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PpnPVjxfugs?si=FpxkMtcxKOhHJnbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <Tweet id="1794543127862337795" />
 
                     <a href='https://rambamamba.itch.io/cryptoclash' className='underline text-blue-500 mt-3'>Game Link</a> <br />
                     <a href='https://github.com/shreybirmiwal/CryptoClash-HackFS2024' className='underline text-blue-500 mt-3'>Github Repo</a> <br />
@@ -98,7 +98,8 @@ function Blockchain() {
                     <br />
                     - Also pitched the idea to VC's and founders at Consensus 2024 opening party <br />                    <br />
 
-                    <iframe width="448" height="796" src="https://www.youtube.com/embed/jRFnrf2Gi6s" title="Consensus Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <Tweet id="1795293864888312257" />
+
                     <a href='https://github.com/shreybirmiwal/trainAI/' className='underline text-blue-500 mt-3'>Github Repo</a>
 
                 </div>
