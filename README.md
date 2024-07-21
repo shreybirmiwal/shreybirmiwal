@@ -49,3 +49,6 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 
 
 Thanks for reading, and please reach out to me to talk :)
+
+
+shreybirmiwal@gmail.com
