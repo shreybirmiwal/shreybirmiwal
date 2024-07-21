@@ -1,5 +1,5 @@
 # About Me
-Hello! I love CS and LOVE TO BUILD projects. I've made new projects every other week since the 6th grade.
+Hello! I love CS and LOVE TO BUILD projects. I've made a new project every other week since the 6th grade.
 
 I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.
 
@@ -34,11 +34,11 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 **Fun Projects**
 | Name          | Description                                                                                |
 |---------------|--------------------------------------------------------------------------------------------|
-| TrackItNow    | Inventory management system with analytics for a donation/volunteering org (manages $15k!) |
-| RateMyJudge   | RateMyProf but for debate judges to show what each judge perfers                           |
-| Stockr        | Practice trading stocks on real historical data!                                           |
-| ClassBot      | Automatically joins your online classes with selenium web driver (COVID-19 online class)   |
-| PooKarma      | Social app to earn points for picking up dog poop. Made for HackTX hackathon in 24 hrs!    |
-| InSight       | Chrome extension that generates images of text as you read, improving comprehension        |
-| ShoeMonitor   | Monitors resell price of sneakers and alerts you of $ opportunity in discord!              |
-| Checkpoint.AI | Teacher advanced analytics by using AI to compare student homework and teacher answerkey   |
+| [TrackItNow](https://github.com/shreybirmiwal/trackitnow)    | Inventory management system with analytics for a donation/volunteering org (manages $15k!) |
+| [RateMyJudge](https://github.com/shreybirmiwal/ratemyjudge)   | RateMyProf but for debate judges to show what each judge perfers                           |
+| [Stockr](https://github.com/shreybirmiwal/stockr-game)        | Practice trading stocks on real historical data!                                           |
+| [ClassBot](https://github.com/shreybirmiwal/ClassBot)      | Automatically joins your online classes with selenium web driver (COVID-19 online class)   |
+| [PooKarma](https://github.com/shreybirmiwal/PooKarma-HackTheFutureHackathon2023)      | Social app to earn points for picking up dog poop. Made for HackTX hackathon in 24 hrs!    |
+| [InSight](https://github.com/shreybirmiwal/inSight-Chrome-Extension)       | Chrome extension that generates images of text as you read, improving comprehension        |
+| [ShoeMonitor](https://github.com/shreybirmiwal/ShoeMonitor)   | Monitors resell price of sneakers and alerts you of $ opportunity in discord!              |
+| [Checkpoint.AI](https://github.com/shreybirmiwal/checkpoint.ai) | Teacher advanced analytics by using AI to compare student homework and teacher answerkey   |
