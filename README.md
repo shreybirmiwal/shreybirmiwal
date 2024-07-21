@@ -7,8 +7,6 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 
 
 # Projects
-\* means currently working on
-
 
 
 **Blockchain**
@@ -31,7 +29,7 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [ShopifyReviews](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews)        | Finetuned llama2 llm model on user actions and reviews to create a review-predictor    |
 
 
-**Fun Projects**
+**Random projects**
 | Name          | Description                                                                                |
 |---------------|--------------------------------------------------------------------------------------------|
 | [TrackItNow](https://github.com/shreybirmiwal/trackitnow)    | Inventory management system with analytics for a donation/volunteering org (manages $15k!) |
@@ -42,3 +40,6 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [InSight](https://github.com/shreybirmiwal/inSight-Chrome-Extension)       | Chrome extension that generates images of text as you read, improving comprehension        |
 | [ShoeMonitor](https://github.com/shreybirmiwal/ShoeMonitor)   | Monitors resell price of sneakers and alerts you of $ opportunity in discord!              |
 | [Checkpoint.AI](https://github.com/shreybirmiwal/checkpoint.ai) | Teacher advanced analytics by using AI to compare student homework and teacher answerkey   |
+
+
+\* means currently working on
