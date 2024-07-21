@@ -39,7 +39,13 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [PooKarma](https://github.com/shreybirmiwal/PooKarma-HackTheFutureHackathon2023)      | Social app to earn points for picking up dog poop. Made for HackTX hackathon in 24 hrs!    |
 | [InSight](https://github.com/shreybirmiwal/inSight-Chrome-Extension)       | Chrome extension that generates images of text as you read, improving comprehension        |
 | [ShoeMonitor](https://github.com/shreybirmiwal/ShoeMonitor)   | Monitors resell price of sneakers and alerts you of $ opportunity in discord!              |
-| [Checkpoint.AI](https://github.com/shreybirmiwal/checkpoint.ai) | Teacher advanced analytics by using AI to compare student homework and teacher answerkey   |
+| [Checkpoint.AI](https://github.com/shreybirmiwal/checkpoint.ai) | Teacher advanced analytics by using AI to compare student homework and teacher answer key   |
+| [Edualize](https://github.com/shreybirmiwal/Edualize) | Enables teachers to create 3D quizes with interactive models   |
+
 
 
 \* means currently working on
+
+
+
+Thanks for reading, and please reach out to me to talk :)
