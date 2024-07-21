@@ -7,9 +7,11 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 
 
 # Projects
-* currently working on
+\* means currently working on
 
-**Blockchain Projects**
+
+
+**Blockchain**
 | Name         | Description                                                                     |
 |--------------|---------------------------------------------------------------------------------|
 | [CryptoClash](https://github.com/shreybirmiwal/CryptoClash-HackFS2024)  | 3D Multiplayer Fighting game with NFTs! Won $7,000+ at HackFS Hackathon!        |
@@ -17,7 +19,9 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [TrainAiToken](https://github.com/shreybirmiwal/trainAI) | Incentivized Sort/Label/Preprocess image data for training AI with crypto       |
 | [PaperDex](https://github.com/shreybirmiwal/PaperDex)     | Chrome extension that enables paper trading of cryptocurrencies on DexScreener! |
 
-**AI Projects**
+
+
+**AI**
 | Name                  | Description                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------|
 | [Memary](https://github.com/kingjulio8238/Memary/pull/26)                | Memory system for AI Agents! Contributed various features (not full project)           |
@@ -25,3 +29,16 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [*GPT-2 Implementation](https://github.com/shreybirmiwal/nn-learn) | Currently working on reimplementing GPT-2 from scratch following Karpathy              |
 | [Fedlearning](https://github.com/shreybirmiwal/fedlearning)           | Website to explore federated learning in-action with sudo-servers                      |
 | [ShopifyReviews](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews)        | Finetuned llama2 llm model on user actions and reviews to create a review-predictor    |
+
+
+**Fun Projects**
+| Name          | Description                                                                                |
+|---------------|--------------------------------------------------------------------------------------------|
+| TrackItNow    | Inventory management system with analytics for a donation/volunteering org (manages $15k!) |
+| RateMyJudge   | RateMyProf but for debate judges to show what each judge perfers                           |
+| Stockr        | Practice trading stocks on real historical data!                                           |
+| ClassBot      | Automatically joins your online classes with selenium web driver (COVID-19 online class)   |
+| PooKarma      | Social app to earn points for picking up dog poop. Made for HackTX hackathon in 24 hrs!    |
+| InSight       | Chrome extension that generates images of text as you read, improving comprehension        |
+| ShoeMonitor   | Monitors resell price of sneakers and alerts you of $ opportunity in discord!              |
+| Checkpoint.AI | Teacher advanced analytics by using AI to compare student homework and teacher answerkey   |
