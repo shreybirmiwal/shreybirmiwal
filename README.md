@@ -22,10 +22,10 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 **AI**
 | Name                  | Description                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------|
+| [FedLearning](https://github.com/shreybirmiwal/fedlearning)           | Website to explore federated learning in-action with pseudo-servers                      |
 | [Memary](https://github.com/kingjulio8238/Memary/pull/26)                | Memory system for AI Agents! Contributed various features (not full project)           |
 | [*CollegeAcceptancePredictor](https://github.com/shreybirmiwal/college-predictor)     | Scraped r/collegeresults and creating model to predict college acceptances given stats |
 | [*GPT-2 Implementation](https://github.com/shreybirmiwal/nn-learn) | Currently working on reimplementing GPT-2 from scratch following Karpathy              |
-| [Fedlearning](https://github.com/shreybirmiwal/fedlearning)           | Website to explore federated learning in-action with pseudo-servers                      |
 | [ShopifyReviews](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews)        | Finetuned llama2 llm model on user actions and reviews to create a review-predictor    |
 
 
