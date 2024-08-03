@@ -9,17 +9,17 @@ function Academics() {
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Academics</h1>
 
-                I am a rising senior (will be in 12th grade next year) at Westwood highschool in Austin Texas. I have a focus on Computer Science <br />
+                I am a senior  at Westwood highschool in Austin Texas. I have a focus on Computer Science <br />
 
                 <br />
                 <h2 className='h2 underline'> Grades </h2>
-                GPA: 5.80/6.00 <br />
+                GPA: 5.83/6.00 <br />
                 ACT: 35/36 <br />
                 PSAT: 1500/1520 <br />
-                Class Rank: 33/703 (6%)<br />
+                Class Rank: 32/700 (5%)<br />
 
                 <br />
-                <h2 className='h2 underline'> Courses </h2>
+                <h2 className='h2 underline'> Courses (Scored 5 on all AP) </h2>
                 AP Computer Science Principles  <br />
                 AP Computer Science A          <br />
                 AP Physics 1                             <br />
@@ -31,7 +31,6 @@ function Academics() {
                 <h2 className='h2 underline'> Awards </h2>
                 USACO Silver Level <br />
                 Debate TFA State Qualification 2x (and placed top 30 in the State of Texas by ranking)<br />
-                Presidential Volunteering Service Award Gold<br />
 
 
             </div>

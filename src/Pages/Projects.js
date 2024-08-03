@@ -31,7 +31,6 @@ function Projects() {
                         <a href='https://fedlearning.vercel.app/'>Website (try it out!)</a>
                         <a href='/blog/2'>Blog post</a>
                         <a href='https://github.com/shreybirmiwal/fedlearning'>Github Code</a>
-                        <a href='https://x.com/shreybirmiwal/status/1797842767361757561'>Tweet</a>
                     </div>
 
                 </div>

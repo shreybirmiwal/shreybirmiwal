@@ -12,8 +12,8 @@ function Home() {
                 Hi, I am Shrey Birmiwal! <br />
                 <br />
                 I am from Austin Texas <br />
-                I am a rising senior in highschool <br />
-                I am passionate about machine learning, blockchain, and edtech and am currently building projects in that space <br />
+                I am a senior in highschool <br />
+                I am passionate about machine learning and blockchain <br />
 
                 <img src="pfp.jpg" width={400} className="my-5" />
 
