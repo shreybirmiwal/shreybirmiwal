@@ -32,7 +32,7 @@ function Blockchain() {
 
                     - Was invited to join the University of Texas txLabs competitive hackathon team after attending general meetings and became the <span className='font-bold'> only highschooler on the team ever </span><br />
                     - Competed at various hackathons representing the University of Texas <br />
-
+                    - Won total of $7,000+ cash and $5,000+ in AWS credits <br />
                     <img src='ut.png' width={500} className='mt-5'></img>
                 </div>
 
@@ -44,7 +44,6 @@ function Blockchain() {
                     - CSL program is a 6-week incubator program that is one of the most successful incubators for blockchain and AI startups in the world having hosted multiple now billion dollar companies just last year alone <br />
                     - Interned as a logistics manager for the program and helped organize the program, such as set up meetings, plan guest speakers, and organize schedules <br />
                     - Built demo day website using reactJS for 55+ VCs to watch from <br />
-                    - Worked with genius engineers and VC managers from MIT to UT and was inspired firsthand  <br />
                 </div>
 
 
@@ -55,7 +54,7 @@ function Blockchain() {
                     <h3 className='h3 mb-5'> Tags: Solidity, Unity </h3>
                     - Built a 3d Multiplayer boxing game in the MONAVERSE metaverse where users can equip skins, weapons, and maps (nfts!) <br />
                     - Competed at the <a className='text-blue-500 underline'> EthGlobal HackFS Hackathon</a> with txLabs representing University of Texas. <br />
-                    - Won $5,000 from MONAVERSE for best metaverse game, $750 from ChainSafeGaming for best implementation of marketplace, $500 + flights + merch + $5,000 AWS credits for top finalist at hackathon<br />
+                    - Won $5,000 from MONAVERSE for best metaverse game, $750 from ChainSafeGaming for best implementation of marketplace, $500 + flights + merch + $5,000 AWS credits for top finalist at <br />
                     <br />
 
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PpnPVjxfugs?si=FpxkMtcxKOhHJnbj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

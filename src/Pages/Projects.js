@@ -2,7 +2,7 @@ import React from 'react'
 import SideBar from '../Sidebar';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
-import ReactSimplyCarousel from 'react-simply-carousel';
+import { Tweet } from 'react-tweet'
 
 
 function Projects() {
@@ -46,10 +46,9 @@ function Projects() {
                     - Pitched to various schools and districts. Currently used by Westwood HS branch and Georgetown HS branch <span className='font-bold'>managing 15,000$ of donations!</span> <br />
                     - Earned the gold presidential service volunteer award by Americorp for the app <br />
 
-                    <div class='flex flex-col md:flex-row mt-5'>
-                        <img src='locker-2.png' class='border-2 border-black mr-0 md:mr-5 mb-5 md:mb-0' width='500' style={{ maxWidth: '100%' }}></img>
-                        <video src="trackitnow.mp4" controls class='mt-5' width='800' style={{ maxWidth: '100%' }}></video>
-                    </div>
+                    <video src="trackitnow.mp4" controls class='mt-5' width='800' style={{ maxWidth: '100%' }}></video>
+                    <Tweet id="1756380546991628439" />
+
 
                     <a href='https://github.com/shreybirmiwal/trackitnow' className='underline text-blue-500 mt-3'>Github Repo</a>
                 </div>
