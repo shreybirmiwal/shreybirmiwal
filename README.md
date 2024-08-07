@@ -1,5 +1,6 @@
 # About Me
-Hello! I love CS and **LOVE TO BUILD** projects. I've made a new project every other week since the 6th grade.
+Hello! I am a rising senior at Westwood High School in Austin, Tx.
+I love to build and learn. I've made a new project every other week since the 6th grade.
 
 I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.
 
