@@ -13,7 +13,7 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 **Blockchain**
 | Name         | Description                                                                     |
 |--------------|---------------------------------------------------------------------------------|
-| [CryptoClash](https://github.com/shreybirmiwal/CryptoClash-HackFS2024)  | 3D Multiplayer Fighting game with NFTs! Won $7,000+ at HackFS Hackathon!        |
+| [CryptoClash](https://github.com/shreybirmiwal/CryptoClash-HackFS2024)  | 3D Multiplayer Fighting game with NFTs! Won $6,000+ cash and $5k AWS credits at HackFS Hackathon!        |
 | [MOVEMENT](https://github.com/shreybirmiwal/movement)     | Decentralized gofundme + change.org. Won $100 at Frameworks Hackathon!          |
 | [TrainAiToken](https://github.com/shreybirmiwal/trainAI) | Incentivized Sort/Label/Preprocess image data for training AI with crypto       |
 | [PaperDex](https://github.com/shreybirmiwal/PaperDex)     | Chrome extension that enables paper trading of cryptocurrencies on DexScreener! |
