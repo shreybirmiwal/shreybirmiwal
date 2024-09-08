@@ -31,6 +31,12 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 | [ShopifyReviews](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews)        | Finetuned llama2 llm model on user actions and reviews to create a review-predictor    |
 
 
+**Hardware**
+| Name                  | Description                                                                            |
+|-----------------------|----------------------------------------------------------------------------------------|
+| [Nand2Tetris*](https://github.com/shreybirmiwal/nand2tetris)           | Building a computer in HDL using only the NAND chip. Following the Nand2Tetris course                      |
+
+
 **Random projects**
 | Name          | Description                                                                                |
 |---------------|--------------------------------------------------------------------------------------------|
