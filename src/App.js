@@ -9,6 +9,7 @@ import Blog from './Pages/Blog';
 import Blockchain from './Pages/Blockchain';
 import Home from './Pages/Home';
 import Blog2 from './Blogs/Blog2';
+import Experiences from './Pages/Experiences';
 
 function BlogPost({ postnum }) {
   return (
@@ -66,6 +67,7 @@ function App() {
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blog/2" element={<BlogPost postnum={2} />} />
           <Route path="/blockchain" element={<Blockchain />} />
+          <Route path="/ex" element={<Experiences />} />
 
         </Routes>
       </div>
