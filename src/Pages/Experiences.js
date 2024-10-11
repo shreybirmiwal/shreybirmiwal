@@ -283,10 +283,51 @@ const experiences = [
         "score": 7
     },
 
+    {
+        "title": "CollegePredictor",
+        "date": "11th grade summer 2024",
+        "description": [
+            "Webscraped r/collegeresults and performed data anlysis on posts to predict college admissions",
+            "Performed PCA, correlation matrix, partial dependence plots, t-tests to analyze data",
+            "Predicted college admissions with up to 90% accuracy"
+        ],
+        "image": 'college_predict.png',
+        "links": [
+            {
+                "text": "Github Repo",
+                "url": "https://github.com/shreybirmiwal/college-predictor"
+            },
+            {
+                "text": "Twitter Post",
+                "url": "https://x.com/shreybirmiwal/status/1819460900346384763"
+            }
+        ],
+        "tags": ["project"],
+        "score": 7
+    },
+
+
+    {
+        "title": "PaperDex",
+        "date": "11th grade summer 2024",
+        "description": [
+            "Chrome extension to paper trade (simulate) cryptocurreny trading",
+        ],
+        "image": null,
+        "video": "paperdex.mp4",
+        "links": [
+            {
+                "text": "Github Repo",
+                "url": "https://github.com/shreybirmiwal/PaperDex"
+            }
+        ],
+        "tags": ["project"],
+        "score": 7
+    },
+
 
 
 ];
-
 function Experiences() {
     const [activeTag, setActiveTag] = useState("all");
     const tags = useMemo(() => {
@@ -305,17 +346,31 @@ function Experiences() {
         return filteredExperiences.sort((a, b) => b.score - a.score);
     }, [filteredExperiences]);
 
+    // Define specific colors for each tag
+    const tagColors = {
+        blockchain: 'bg-purple-200 text-purple-800',
+        'work-experience': 'bg-yellow-200 text-yellow-800',
+        hardware: 'bg-green-200 text-green-800',
+        project: 'bg-blue-200 text-blue-800',
+        hackathon: 'bg-red-200 text-red-800',
+    };
+
     return (
         <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Experiences</h1>
 
+                {/* Tags Filter */}
+                Filter Results: {activeTag}
                 <div className="mb-5">
-                    {tags.map(tag => (
+                    {tags.map((tag) => (
                         <button
                             key={tag}
-                            className={`mr-2 mb-2 px-3 py-1 rounded ${activeTag === tag ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
+                            className={`mr-2 mb-2 px-3 py-1 rounded text-sm transition-colors 
+                                ${activeTag === tag
+                                    ? `${tagColors[tag] || 'bg-gray-600 text-white'}`
+                                    : `${tagColors[tag] || 'bg-gray-300'} hover:bg-opacity-60`}`}
                             onClick={() => setActiveTag(tag)}
                         >
                             {tag}
@@ -323,29 +378,50 @@ function Experiences() {
                     ))}
                 </div>
 
+                {/* Experience Cards */}
                 {sortedExperiences.map((exp, index) => (
                     <div key={index} className='mt-10'>
                         <h2 className='h2 underline'>{exp.title}</h2>
                         <h3 className='h3'>{exp.date}</h3>
+
+                        {/* Experience Details */}
                         {exp.description.map((desc, i) => (
                             <p key={i}>- {desc}</p>
                         ))}
+
                         {exp.image && <img src={exp.image} alt={exp.title} className='mt-5' width={500} />}
+
                         {exp.video && (
-                            <iframe
-                                width="500"
-                                height="330"
-                                src={exp.video}
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowFullScreen
-                                className='mt-5'
-                            ></iframe>
+                            exp.video.includes('youtube.com') || exp.video.includes('youtu.be') ? (
+                                // YouTube video
+                                <iframe
+                                    width="500"
+                                    height="330"
+                                    src={`${exp.video}?autoplay=0`}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowFullScreen
+                                    className='mt-5'
+                                ></iframe>
+                            ) : (
+                                // Local or direct video file
+                                <video
+                                    width="500"
+                                    height="330"
+                                    controls
+                                    className="mt-5"
+                                >
+                                    <source src={exp.video} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            )
                         )}
+
                         {exp.links && exp.links.map((link, i) => (
                             <a key={i} href={link.url} className='block underline text-blue-500 mt-3'>{link.text}</a>
                         ))}
+
                         {exp.tweet && <Tweet id={exp.tweet} />}
                     </div>
                 ))}

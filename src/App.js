@@ -3,10 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
 import Blog1 from './Blogs/Blog1';
 import SideBar from './Sidebar';
-import WorkExperience from './Pages/WorkExperience';
-import Projects from './Pages/Projects';
 import Blog from './Pages/Blog';
-import Blockchain from './Pages/Blockchain';
 import Home from './Pages/Home';
 import Blog2 from './Blogs/Blog2';
 import Experiences from './Pages/Experiences';
@@ -34,11 +31,8 @@ function MobileNav() {
       >
         <option value="/">Home</option>
         <option value="/experiences">Experiences</option>
-
-        <option value="/blockchain">Blockchain & Decentralized AI</option>
-        <option value="/workExperience">Work Experience</option>
-        <option value="/projects">Projects</option>
         <option value="/blog">Blog</option>
+
       </select>
     </div>
   );
@@ -62,13 +56,10 @@ function App() {
         {isMobile && <MobileNav />}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/workExperience" element={<WorkExperience />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blog/2" element={<BlogPost postnum={2} />} />
-          <Route path="/blockchain" element={<Blockchain />} />
           <Route path="/experiences" element={<Experiences />} />
 
         </Routes>
