@@ -1,15 +1,14 @@
 [
     {
         "title": "Jump Finance - Paid Software Intern",
-        "dateRange": "Summer 2023",
-        "schoolYear": "11th grade",
-        "bodyText": [
-            "Jump Finance provides loans for students in Ghana by working with universities.",
-            "Solo-built an application for 900 students to afford university using ReactJS, NodeJS, and MySQL."
-        ],
-        "image": "jump_finance.jpg",
-        "media": [],
-        "link": "",
+        "date_start": "Summer 2023",
+        "date_end": null,
+        "school_year": null,
+        "importance": 5,
+        "body_text": "Jump Finance provides loans for students in Ghana by working with universities...",
+        "image": null,
+        "link": null,
+        "media": null,
         "tags": [
             "Top 5",
             "EdTech",
@@ -18,20 +17,63 @@
         ]
     },
     {
-        "title": "Aspiring Students Directed Research (ASDRP) - Student Researcher",
-        "dateRange": "Summer 2022 - Ongoing",
-        "schoolYear": "10th grade",
-        "bodyText": [
-            "Research on reducing trial time of FDA-approved drugs using weighted score analysis with Python.",
-            "Presented at Southern California Conferences for Undergraduate Research."
-        ],
+        "title": "ASDRP - Student Researcher",
+        "date_start": "Summer 2022",
+        "date_end": "Ongoing",
+        "school_year": null,
+        "importance": 4,
+        "body_text": "Was accepted into a competitive research organization in California...",
         "image": "asdrp.jpg",
-        "media": [],
-        "link": "",
+        "link": null,
+        "media": null,
         "tags": [
             "Top 5",
             "Research",
             "Python"
+        ]
+    },
+    {
+        "title": "Convergent Forge (Org. at UT) - Paid Intern",
+        "date_start": "Summer 2022",
+        "date_end": null,
+        "school_year": null,
+        "importance": 3,
+        "body_text": "Led a team of college students to create a website that enables...",
+        "image": "convergent.jpg",
+        "link": null,
+        "media": null,
+        "tags": [
+            "EdTech"
+        ]
+    },
+    {
+        "title": "TrackItNow - The Locker",
+        "date_start": "School 2023",
+        "date_end": null,
+        "school_year": "2023",
+        "importance": 4,
+        "body_text": "'The Locker' is a nonprofit organization...",
+        "image": null,
+        "link": "https://github.com/shreybirmiwal/trackitnow",
+        "media": "trackitnow.mp4",
+        "tags": [
+            "EdTech",
+            "ReactJS",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "Checkpoint.ai",
+        "date_start": "School 2024",
+        "date_end": null,
+        "school_year": "2024",
+        "importance": 4,
+        "body_text": "Checkpoint.ai is an edtech AI grading assistant...",
+        "image": null,
+        "link": null,
+        "media": "checkpointAI.mp4",
+        "tags": [
+            "EdTech"
         ]
     }
 ]

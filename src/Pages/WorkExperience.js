@@ -11,40 +11,31 @@ function WorkExperience() {
 
 
                 <div className='mt-10'>
-                    <h2 className='h2 underline'> Jump Finance - Paid Software Intern</h2>
-
-                    <h3 className='h3'> Summer 2023 </h3>
-                    <h3 className='h3 mb-5'> Tags: EdTech, ReactJs, Full Stack Dev</h3>
-
-                    - Jump Finance provides loans for students in Ghana by working with universities <br />
-                    - Start-to-finish solo-built an application, deposit, loan, and invoice system to enable over <span className='font-bold'> 900 students </span> in Ghana to afford University <br />
-                    - Used ReactJS, NodeJS, and mySQL to build the application <br />
-                    - Became the first intern and the <span className='font-bold'>only highschooler</span> to be hired ever after applying through Convergent Forge UT
+                    <h2 className='h2 underline'> Jump Finance - SWE intern</h2>
+                    <h3 className='h3'> 10th grade Summer 2023 </h3>
+                    - Developed software to track loans, deposits, and student applications in ReactJS, NodeJS, and mySQL <br />
+                    - Automated JumpFinance student loan management from using WhatsApp to automated webapp <br />
                 </div>
 
                 <div className='mt-10'>
                     <h2 className='h2 underline'> Aspiring Students Directed Research (ASDRP) - Student Researcher</h2>
-
-                    <h3 className='h3'> Summer 2022 - Ongoing </h3>
-                    <h3 className='h3 mb-5'> Tags: Research, Python</h3>
-
-                    - Was accepted into a competitive research organization in California after an online application <br />
-                    - Creating a working research paper as the lead author over the usage of weighted score analysis done using Python on FDA-approved drugs to reduce the trial and error time when developing pharmaceutical drugs under Dr. Njoo and Prof. Downing affiliated with Stanford University <br />
-                    - Presented the research findings at Southern California Conferences for Undergraduate Research in front of industry specialists, scientists, and PhD researchers <br />
+                    <h3 className='h3'> 9th grade Summer 2022 - 12th grade 2024 </h3>
+                    - Developed weighted scoring methodology for drug safety with Python <br />
+                    - Utilized covariance matrix, z-score, correlation matrix, and other statistical methods to analyze data <br />
+                    - Presented the research findings at Southern California Conferences for Undergraduate Research <br />
 
                     <img src='asdrp.jpg' className='mt-5' width={500} ></img>
                 </div>
 
 
                 <div className='mt-10'>
-                    <h2 className='h2 underline'> Convergent Forge (Org. at University of Texas) - Paid Intern</h2>
+                    <h2 className='h2 underline'> Convergent Forge (Org. at University of Texas) - SWE intern</h2>
 
-                    <h3 className='h3'> Summer 2022 </h3>
-                    <h3 className='h3 mb-5'> Tags: EdTech </h3>
+                    <h3 className='h3'> 9th grade Summer 2022 </h3>
 
-                    - Convergent Forge is an organization partnership between computer science and business at the University of Texas that helps create apps for businesses <br />
-                    - <span className='font-bold'>Led a team of college students </span> to create a website that enables students to sell products in an online mall quickly, and easily and handed off project to board of executives of JASET <br />
-                    - Presented at the UT Convergent Expo in front of college students, professors, and companies <br />
+                    - Led a team of UT students to create a website that enables students to sell products in an online mall quickly <br />
+                    - Handed project off to Junior Achievement enabling 12 companies launching on site <br />
+                    - Presented at the UT Convergent Expo <br />
 
                     <img src='convergent.jpg' className='mt-5' width={500} ></img>
                 </div>

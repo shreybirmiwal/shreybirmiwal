@@ -44,7 +44,7 @@ function Blockchain() {
                     <h2 className='h2 underline'>CryptoClash - Winner @EthGlobal HackFS</h2>
 
                     <h3 className='h3'> 11th grade 2024 </h3>
-                    - Built a 3D, Multiplayer, Metaverse boxing video game w/NFTs using Unity! <br />
+                    - Built a 3D, Multiplayer, Metaverse boxing video game w/NFTs using Unity in 3weeks during hackFS! <br />
                     - Won $5k from MONAVERSE, $750 from ChainSafe, $5k AWS credits + $500 cash for top finalist
                     <br />
 
