@@ -12,6 +12,7 @@ function SideBar() {
                     <Link to="/workExperience" className="p-5 ">Work Experience</Link>
                     <Link to="/projects" className="p-5 ">Projects</Link>
                     <Link to="/blog" className="p-5 ">Blog</Link>
+                    <Link to="/experiences" className="p-5 ">Experiences</Link>
 
                 </div>
             </div>

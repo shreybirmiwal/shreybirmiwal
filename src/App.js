@@ -33,6 +33,8 @@ function MobileNav() {
         onChange={(e) => window.location.href = e.target.value}
       >
         <option value="/">Home</option>
+        <option value="/experiences">Experiences</option>
+
         <option value="/blockchain">Blockchain & Decentralized AI</option>
         <option value="/workExperience">Work Experience</option>
         <option value="/projects">Projects</option>
@@ -67,7 +69,7 @@ function App() {
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blog/2" element={<BlogPost postnum={2} />} />
           <Route path="/blockchain" element={<Blockchain />} />
-          <Route path="/ex" element={<Experiences />} />
+          <Route path="/experiences" element={<Experiences />} />
 
         </Routes>
       </div>
