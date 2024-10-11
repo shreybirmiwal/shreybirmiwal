@@ -3,19 +3,16 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
 import Blog1 from './Blogs/Blog1';
 import SideBar from './Sidebar';
-import Academics from './Pages/Academics';
 import WorkExperience from './Pages/WorkExperience';
 import Projects from './Pages/Projects';
 import Blog from './Pages/Blog';
 import Blockchain from './Pages/Blockchain';
 import Home from './Pages/Home';
-import Ideas from './Pages/Ideas';
-import AllProjects from './Pages/AllProjects';
 import Blog2 from './Blogs/Blog2';
 
 function BlogPost({ postnum }) {
   return (
-    <div className="flex flex-grow font-mono min-h-screen">
+    <div className="flex flex-grow  min-h-screen">
       <SideBar />
       <div className="w-5/6 p-10">
         {postnum === 0 && <Blog0 />}
@@ -35,11 +32,10 @@ function MobileNav() {
         onChange={(e) => window.location.href = e.target.value}
       >
         <option value="/">Home</option>
-        <option value="/academics">Academics</option>
+        <option value="/blockchain">Blockchain & Decentralized AI</option>
         <option value="/workExperience">Work Experience</option>
         <option value="/projects">Projects</option>
         <option value="/blog">Blog</option>
-        <option value="/blockchain">Blockchain</option>
       </select>
     </div>
   );
@@ -63,7 +59,6 @@ function App() {
         {isMobile && <MobileNav />}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/academics" element={<Academics />} />
           <Route path="/workExperience" element={<WorkExperience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
@@ -71,7 +66,6 @@ function App() {
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blog/2" element={<BlogPost postnum={2} />} />
           <Route path="/blockchain" element={<Blockchain />} />
-          <Route path="/allprojects" element={<AllProjects />} />
 
         </Routes>
       </div>

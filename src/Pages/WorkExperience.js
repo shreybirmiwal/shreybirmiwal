@@ -4,20 +4,11 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function WorkExperience() {
     return (
-        <div className="flex flex-grow font-mono min-h-screen">
+        <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Work Experience</h1>
 
-                <div className='mt-10'>
-                    <h2 className='h2 underline'>CSL Summer Intern - ChainHub Foundation</h2>
-
-                    <h3 className='h3'> Summer 2024 </h3>
-                    <h3 className='h3 mb-5'> Tags: Solidity, Startups </h3>
-                    - CSL program is a 6-week incubator program that is one of the most successful incubators for blockchain and AI startups in the world having hosted multiple now billion dollar companies just last year alone <br />
-                    - Interned as a logistics manager for the program and helped organize the program, such as set up meetings, plan guest speakers, and organize schedules <br />
-                    - Worked with genius engineers and VC managers from MIT to UT and was inspired firsthand  <br />
-                </div>
 
                 <div className='mt-10'>
                     <h2 className='h2 underline'> Jump Finance - Paid Software Intern</h2>

@@ -4,16 +4,16 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Home() {
     return (
-        <div className="flex flex-grow font-mono min-h-screen">
+        <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Home</h1>
 
                 Hi, I am Shrey Birmiwal! <br />
                 <br />
-                I am from Austin Texas <br />
-                I am a senior in highschool <br />
-                I am passionate about machine learning and blockchain <br />
+                I am a rising senior at Westwood High School in Austin, Tx. I love to build and learn. I've made a new project every other week since the 6th grade.<br />
+                <br />
+                I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.<br />
 
                 <img src="pfp.jpg" width={400} className="my-5" />
 

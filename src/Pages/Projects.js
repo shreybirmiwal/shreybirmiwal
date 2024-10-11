@@ -10,30 +10,13 @@ function Projects() {
 
 
     return (
-        <div className="flex flex-grow font-mono min-h-screen">
+        <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Projects</h1>
-                <h3 className='h3 italic'> Note: this is not a list of <span className='font-bold'>ALL</span> my projects, but the ones I am proud of. For a list of ALL projects I have done, <a href='/allprojects' className='underline text-blue-500'>click here.</a> (or at least the projects I could remember/find) <br /></h3>
 
 
-                <div className='mt-10'>
-                    <h2 className='h2 underline'>Federated Learning Demo</h2>
-                    <h3 className='h3'> Summer 2023 </h3>
-                    <h3 className='h3 mb-5'> Tags: ML, ReactJS </h3>
-                    - Federated learning is a method of training a machine learning model without sharing data to a central server<br />
-                    - Build a demo website to simulate 3 clients pooling data to create a federated model without leaking data to each other or a central server <br />
-                    <br />
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aflfj00Rc-w?si=nmmPtBINmHhehitb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <br />
 
-
-                    <div className="  text-blue-500 underline cursor-pointer flex flex-col">
-                        <a href='https://fedlearning.vercel.app/'>Website (try it out!)</a>
-                        <a href='/blog/2'>Blog post</a>
-                        <a href='https://github.com/shreybirmiwal/fedlearning'>Github Code</a>
-                    </div>
-
-                </div>
 
 
 
