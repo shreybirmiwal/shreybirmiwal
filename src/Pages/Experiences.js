@@ -142,8 +142,8 @@ const experiences = [
         "description": [
             "Developed weighted scoring methodology for drug safety with Python",
             "Utilized covariance matrix, z-score, correlation matrix, and other statistical methods to analyze data",
-            "Presented the research findings at Southern California Conferences for Undergraduate Research"
         ],
+        "caption": "Presenting at the Southern California Conferences for Undergraduate Research!",
         "image": "asdrp.jpg",
         "video": null,
         "links": [],
@@ -156,8 +156,8 @@ const experiences = [
         "description": [
             "Led a team of UT students to create a website that enables students to sell products in an online mall quickly",
             "Handed project off to Junior Achievement enabling 12 companies launching on site",
-            "Presented at the UT Convergent Expo"
         ],
+        "caption": "Presenting at the University of Texas Convergent Expo day!",
         "image": "convergent.jpg",
         "video": null,
         "links": [],
@@ -172,6 +172,7 @@ const experiences = [
             "Includes a compiler, assembler, VM translator, and OS",
             "Followed nand2tetris.org textbook"
         ],
+        "caption": "Notes from building machine language programs!",
         "image": "nand2tetris.jpg",
         "video": null,
         "links": [
