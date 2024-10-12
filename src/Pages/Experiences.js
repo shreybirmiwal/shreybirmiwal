@@ -241,6 +241,7 @@ const experiences = [
         "description": [
             "Edualize enables teachers to create interactive, 3d, quiz/homework assignments for students"
         ],
+        "caption": "A quick demo showing a student solving a quiz on insects in Edualize",
         "image": null,
         "video": "edualize.mp4",
         "links": [],
@@ -301,6 +302,7 @@ const experiences = [
             "Performed PCA, correlation matrix, partial dependence plots, t-tests to analyze data",
             "Predicted college admissions with up to 90% accuracy"
         ],
+        "caption": "A cool PCA plot from the CollegePredictor project!",
         "image": 'college_predict.png',
         "links": [
             {
