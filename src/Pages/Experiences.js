@@ -341,7 +341,7 @@ const experiences = [
 
 ];
 function Experiences() {
-    const [activeTag, setActiveTag] = useState("blockchain");
+    const [activeTag, setActiveTag] = useState("all");
     const tags = useMemo(() => {
         const allTags = experiences.flatMap(exp => exp.tags);
         return [...new Set(allTags), "all"];
