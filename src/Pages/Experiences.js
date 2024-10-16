@@ -172,7 +172,7 @@ const experiences = [
             "Includes a compiler, assembler, VM translator, and OS",
             "Followed nand2tetris.org textbook"
         ],
-        "caption": "Notes from building machine language programs!",
+        "caption": "Notes constructing the CPU using parts developed earlier (starting from NAND gate)",
         "image": "nand2tetris.jpg",
         "video": null,
         "links": [
