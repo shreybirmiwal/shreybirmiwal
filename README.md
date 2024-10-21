@@ -1,10 +1,5 @@
 # About Me
-Hello! I am a rising senior at Westwood High School in Austin, Tx.
-I love to build and learn. I've made a new project every other week since the 6th grade.
-
-I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.
-
-Currently, I am learning computer architecture through Nand2Tetris and working on learning ML research by recreating chat-gpt-2 through Karpathy's NN videos!
+Hello! I am a rising senior at Westwood High School in Austin, Texas.
 
 
 # Projects
@@ -54,10 +49,8 @@ Currently, I am learning computer architecture through Nand2Tetris and working o
 
 
 \* means currently working on
-
-
+Personal Site: https://shreybirmiwal.vercel.app/
 
 Thanks for reading, and please reach out to me to talk :)
-
 
 shreybirmiwal@gmail.com
