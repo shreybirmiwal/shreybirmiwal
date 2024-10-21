@@ -4,7 +4,7 @@ I love to build and learn. I've made a new project every other week since the 6t
 
 I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.
 
-Currently, I am working on learning ML research by recreating chat-gpt-2 through Karpathy's NN videos!
+Currently, I am learning computer architecture through Nand2Tetris and working on learning ML research by recreating chat-gpt-2 through Karpathy's NN videos!
 
 
 # Projects
