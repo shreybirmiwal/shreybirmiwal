@@ -13,7 +13,7 @@ Currently, I am learning computer architecture through Nand2Tetris and working o
 **Blockchain**
 | Name         | Description                                                                     |
 |--------------|---------------------------------------------------------------------------------|
-| [L00P](https://github.com/shreybirmiwal/L00P-ethSF2024)  | Onchain Reinforcement Learning with Human Feedback (RLHF). Won $1,500 at ethSF2024 from Hedera!        |
+| [L00P](https://github.com/shreybirmiwal/L00P-ethSF2024)  | Onchain Reinforcement Learning with Human Feedback (RLHF). Won $3,000 at ethSF 2024 from Hedera+AirDao!!        |
 | [CryptoClash](https://github.com/shreybirmiwal/CryptoClash-HackFS2024)  | 3D Multiplayer Fighting game with NFTs! Won $6,000+ cash and $5k AWS credits at HackFS Hackathon!        |
 | [MOVEMENT](https://github.com/shreybirmiwal/movement)     | Decentralized gofundme + change.org. Won $100 at Frameworks Hackathon!          |
 | [TrainAiToken](https://github.com/shreybirmiwal/trainAI) | Incentivized Sort/Label/Preprocess image data for training AI with crypto       |
