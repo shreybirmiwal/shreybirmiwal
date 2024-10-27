@@ -1,10 +1,5 @@
 # About Me
-Hello! I am a rising senior at Westwood High School in Austin, Tx.
-I love to build and learn. I've made a new project every other week since the 6th grade.
-
-I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.
-
-Currently, I am working on learning ML research by recreating chat-gpt-2 through Karpathy's NN videos!
+Hello! I am a rising senior at Westwood High School in Austin, Texas.
 
 
 # Projects
@@ -13,6 +8,7 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 **Blockchain**
 | Name         | Description                                                                     |
 |--------------|---------------------------------------------------------------------------------|
+| [Loop](https://github.com/shreybirmiwal/L00P-ethSF2024)  | Onchain Reinforcement Learning with Human Feedback (RLHF). Won $3,000 at ethSF 2024 from Hedera+AirDao!!        |
 | [CryptoClash](https://github.com/shreybirmiwal/CryptoClash-HackFS2024)  | 3D Multiplayer Fighting game with NFTs! Won $6,000+ cash and $5k AWS credits at HackFS Hackathon!        |
 | [MOVEMENT](https://github.com/shreybirmiwal/movement)     | Decentralized gofundme + change.org. Won $100 at Frameworks Hackathon!          |
 | [TrainAiToken](https://github.com/shreybirmiwal/trainAI) | Incentivized Sort/Label/Preprocess image data for training AI with crypto       |
@@ -53,10 +49,8 @@ Currently, I am working on learning ML research by recreating chat-gpt-2 through
 
 
 \* means currently working on
-
-
+Personal Site: https://shreybirmiwal.vercel.app/
 
 Thanks for reading, and please reach out to me to talk :)
-
 
 shreybirmiwal@gmail.com
