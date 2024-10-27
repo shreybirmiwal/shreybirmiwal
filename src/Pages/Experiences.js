@@ -4,6 +4,22 @@ import { Tweet } from 'react-tweet';
 
 const experiences = [
     {
+        title: "Loop - Onchain RLHF Platform @EthSF",
+        date: "12th Grade 2024",
+        description: [
+            "Built a decentralized RLHF (Reinforcement Learning with Human Feedback) platform on blockchain",
+            "Enables crowdsourced AI fine-tuning through token-based incentives",
+            "Won $3,000 in prizes from Hedera and AirDAO at ETHSF 2024 with Sree Duggirala from UT TxLabs"
+        ],
+        image: "loop.png",
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/Loop-ethSF2024" },
+            { text: "Tweet", url: "https://x.com/shreybirmiwal/status/1848496795820699768" }
+        ],
+        tags: ["blockchain"],
+        score: 4
+    },
+    {
         title: "Akash Verifiable Compute - Student Researcher",
         date: "12th Grade 2024 - Ongoing",
         description: [
@@ -26,7 +42,7 @@ const experiences = [
         date: "11th Grade 2023 - Ongoing",
         description: [
             "Only highschooler on University of Texas competitive blockchain hackathon team",
-            "Won total of $6,000+ cash and $5,000+ in AWS credits from hackathon winnings",
+            "Won total of $9,000+ cash and $5,000+ in AWS credits from hackathon winnings",
             "Used Solidity, ReactJS, and Web3.js to build dApps & pitched them"
         ],
         image: "ut.png",
@@ -110,7 +126,7 @@ const experiences = [
         date: "11th Grade 2024",
         description: [
             "Built a decentralized farcaster frame that enables 'gofundme' X 'change.org' with cryptocurrency",
-            "Made in 24 hours at EthGlobal Frameworks Hackathon, won $100",
+            "Made in 24 hours at EthGlobal Frameworks Hackathon, won $100 with the TxLabs team (Sree Duggirala)",
             "Enables 1. trackable funds post donation, 2. verifiable petition signations, 3. annoynmous donations, 4. instant payouts to recipients"
         ],
         video: "movement.mp4",
