@@ -20,18 +20,20 @@ Hello! I am a rising senior at Westwood High School in Austin, Texas.
 | Name                  | Description                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------|
 | [FedLearning](https://github.com/shreybirmiwal/fedlearning)           | Website to explore federated learning in-action with pseudo-servers                      |
-| [Memary](https://github.com/kingjulio8238/Memary/pull/26)                | Memory system for AI Agents! Contributed various features (not full project)           |
 | [CollegeAcceptancePredictor](https://github.com/shreybirmiwal/college-predictor)     | Scraped r/collegeresults and created model to predict college acceptances given stats |
-| [Random AI/LLM experiments](https://github.com/shreybirmiwal/ml-research) | Random AI assorted experiments and programs              |
 | [*GPT-2 Implementation](https://github.com/shreybirmiwal/ml-research) | Currently working on reimplementing GPT-2 from scratch following Karpathy  *UPDATE LINK            |
 | [ShopifyReviews](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews)        | Finetuned llama2 llm model on user actions and reviews to create a review-predictor    |
-
+| [Memary](https://github.com/kingjulio8238/Memary/pull/26)                | Memory system for AI Agents! Contributed various features (not full project)           |
 
 **Hardware**
 | Name                  | Description                                                                            |
 |-----------------------|----------------------------------------------------------------------------------------|
-| [Nand2Tetris*](https://github.com/shreybirmiwal/nand2tetris)           | Building a computer in HDL using only the NAND chip. Following the Nand2Tetris course                      |
+| [Nand2Tetris*](https://github.com/shreybirmiwal/nand2tetris)           | Building a computer in HDL using only the NAND chip. Following the Nand2Tetris course             |
 
+**Cool Projects**
+| Name          | Description                                                                                |
+|-----------------------|----------------------------------------------------------------------------------------|
+| [SOS](https://github.com/shreybirmiwal/sos)           | An OMI AI wearable app that alerts friends and families if it detects you in danger!       |
 
 **Random projects**
 | Name          | Description                                                                                |
