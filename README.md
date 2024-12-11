@@ -3,9 +3,9 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 
 ---
 
-# 🛠️ Projects  
+# Projects  
 
-## **Blockchain** 🔗  
+## **Blockchain**  
 | Project  | Description                                                                  |
 |-----------|------------------------------------------------------------------------------|
 | 🌀 [**Loop**](https://github.com/shreybirmiwal/L00P-ethSF2024) | **🏆 Won $3,000** at ethSF 2024 from Hedera + AirDao! On-chain Reinforcement Learning with Human Feedback (RLHF).   |
@@ -16,7 +16,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 
 ---
 
-## **AI** 🤖  
+## **AI**  
 | Project  | Description                                                                       |
 |------------|-----------------------------------------------------------------------------------|
 | 🌐 [**FedLearning**](https://github.com/shreybirmiwal/fedlearning) | Interactive website exploring federated learning with pseudo-servers.               |
@@ -27,21 +27,21 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 
 ---
 
-## **Hardware** ⚙️  
+## **Hardware**   
 | Project  | Description                                                                      |
 |------------|-----------------------------------------------------------------------------------|
 | 🔌 [**Nand2Tetris**](https://github.com/shreybirmiwal/nand2tetris) | Building a computer in HDL from the ground up using NAND chips (*in progress*).      |
 
 ---
 
-## **Cool Projects** 🧠  
+## **Cool Projects**  
 | Project  | Description                                                                       |
 |-----------|------------------------------------------------------------------------------------|
 | 🚨 [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $5,000** at OMI Hacks! AI-powered wearable app that alerts friends/family if it detects danger. |
 
 ---
 
-## **Random Projects** 🎲  
+## **Random Projects**  
 | Project  | Description                                                                       |
 |------------|-----------------------------------------------------------------------------------|
 | 📦 [**TrackItNow**](https://github.com/shreybirmiwal/trackitnow) | Inventory management system with analytics for a volunteering org managing $15K+.     |
