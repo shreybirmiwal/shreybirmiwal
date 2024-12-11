@@ -4,6 +4,22 @@ import { Tweet } from 'react-tweet';
 
 const experiences = [
     {
+        title: "SOS - OMI ai necklace app winner @hackOMI",
+        date: "12th Grade 2024",
+        description: [
+            "Built an OMI (an ai necklace) app that detects when yourin danger and automatically contacts emergency services",
+            "Won $3,000 cash and $2,000 to visit San Fransisco in the OMI Hackathon in Decembr 2024"
+        ],
+        video: "omiv2.mp4",
+        caption: "Demo Video (went viral on twitter)",
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/sos" },
+            { text: "Tweet", url: "https://x.com/shreybirmiwal/status/1857880411767967761" }
+        ],
+        tags: ["project"],
+        score: 3
+    },
+    {
         title: "Loop - Onchain RLHF Platform @EthSF",
         date: "12th Grade 2024",
         description: [
