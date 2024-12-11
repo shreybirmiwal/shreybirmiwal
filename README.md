@@ -33,7 +33,7 @@ Hello! I am a rising senior at Westwood High School in Austin, Texas.
 **Cool Projects**
 | Name          | Description                                                                                |
 |-----------------------|----------------------------------------------------------------------------------------|
-| [SOS](https://github.com/shreybirmiwal/sos)           | An OMI AI wearable app that alerts friends and families if it detects you in danger!       |
+| [SOS](https://github.com/shreybirmiwal/sos)           | An OMI AI wearable app that alerts friends and families if it detects you in danger! Won $3k USD + trip TO SF at OMI HACKS!!       |
 
 **Random projects**
 | Name          | Description                                                                                |
