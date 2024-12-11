@@ -37,7 +37,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 ## **Cool Projects**  
 | Project  | Description                                                                       |
 |-----------|------------------------------------------------------------------------------------|
-| 🚨 [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $5,000** at OMI Hacks! AI-powered wearable app that alerts friends/family if it detects danger. |
+| 🚨 [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $3,500 FIRST PLACE** at OMI Hacks! AI-powered wearable app that alerts friends/family if it detects danger. |
 
 ---
 
