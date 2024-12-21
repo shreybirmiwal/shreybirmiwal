@@ -13,6 +13,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 | 🌍 [**MOVEMENT**](https://github.com/shreybirmiwal/movement) | **🏆 Won $100** at Frameworks Hackathon! Decentralized GoFundMe + Change.org. |
 | 🤖 [**TrainAi**](https://github.com/shreybirmiwal/trainAI) | Incentivizes sorting, labeling, and preprocessing image data for AI training with crypto. |
 | 📈 [**PaperDex**](https://github.com/shreybirmiwal/PaperDex) | Chrome extension for paper trading cryptocurrencies on DexScreener. |
+| 🎁 [**CryptoWrapped**](https://github.com/shreybirmiwal/CryptoWrapped) | SpotifyWrapped - for your cryptocurrency trades. Simply enter your ETH address. |
 
 ---
 
