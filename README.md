@@ -39,6 +39,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 | Project | Description |
 |---------|-------------|
 |  [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $3,500 FIRST PLACE** at OMI Hacks! AI-powered app to detect danger and alert family. |
+|  [**Ramba**](https://github.com/shreybirmiwal/Ramba-Nvidia-Hackathon) | The AI agent that leads your zoom calls. Built in just 2 hours @nvidiaXvercel "worlds shortest hackathon" |
 
 ---
 
