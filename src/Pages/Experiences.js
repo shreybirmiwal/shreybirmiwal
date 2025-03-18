@@ -26,11 +26,11 @@ const experiences = [
         title: "SOS - OMI ai necklace app winner @hackOMI",
         date: "12th Grade 2024",
         description: [
-            "Built an OMI (an ai necklace) app that detects when yourin danger and automatically contacts emergency services",
-            "Won $3,000 cash and $2,000 to visit San Fransisco in the OMI Hackathon in Decembr 2024"
+            "Built an OMI (an ai necklace) app that detects when you are in danger and automatically contacts emergency services",
+            "First Place: Won $1,500 cash (3k split amongst 2 winners) and $2,000 to visit San Fransisco in the OMI Hackathon in December 2024"
         ],
         video: "omiv2.mp4",
-        caption: "Demo Video (went viral on twitter)",
+        caption: "Demo Video (went viral on Twitter)",
         links: [
             { text: "Github Repo", url: "https://github.com/shreybirmiwal/sos" },
             { text: "Tweet", url: "https://x.com/shreybirmiwal/status/1857880411767967761" }
