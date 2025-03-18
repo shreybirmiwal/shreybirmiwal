@@ -2,7 +2,26 @@ import React, { useState, useMemo } from 'react';
 import SideBar from '../Sidebar';
 import { Tweet } from 'react-tweet';
 
+
 const experiences = [
+    {
+        title: "Unagi - $16,000 in Prizes @ETHDenver",
+        date: "12th Grade 2025",
+        description: [
+            "Built Unagi, a dePin network of autonomously verified security cameras",
+            "Won $16,000 in prizes at ETHDenver 2025 with TxBlockchain",
+            "EigenGames: Top 6 Finalist - $5k AWS credits; Autonome most innovate - $1.5k; Othentic - 'Most Loved'",
+            "ManifoldLabs: First Place - $4k (10 $TAO); StoryProtocol: $3k; u2u_xyz: $3k"
+        ],
+        image: "unagi.png",
+
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/unagi" },
+            { text: "Tweet", url: "https://x.com/shreybirmiwal/status/1898750815159898375" }
+        ],
+        tags: ["project, blockchain"],
+        score: 1
+    },
     {
         title: "SOS - OMI ai necklace app winner @hackOMI",
         date: "12th Grade 2024",
