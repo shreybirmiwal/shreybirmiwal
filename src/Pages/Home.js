@@ -14,6 +14,10 @@ function Home() {
                 I am a rising senior at Westwood High School in Austin, Tx. I love to build and learn. I've made a new project every other week since the 6th grade.<br />
                 <br />
                 I'm interested in using blockchain to create verifable computing and better AI, building ASIC chips specialized for AI, and researching machine learning.<br />
+                <br/>
+                <br/>
+
+                I'm currently building a peer to peer cloud gaming network, working on Kernel: confidential verifiable compute, and will be interning at Coinbase this summer
 
                 <img src="pfp.jpg" width={400} className="my-5" />
 
