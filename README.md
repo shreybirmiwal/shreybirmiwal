@@ -10,7 +10,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 |---------|-------------|
 |  [**Unagi**](https://github.com/shreybirmiwal/unagi) | **🏆 Won $16,000** at EthDenver 2025! DePIN of autonomously verified security cameras |
 |  [**Loop**](https://github.com/shreybirmiwal/L00P-ethSF2024) | **🏆 Won $3,000** at ethSF 2024! On-chain Reinforcement Learning with Human Feedback (RLHF). |
-|  [**CryptoClash**](https://github.com/shreybirmiwal/CryptoClash-HackFS2024) | **🏆 Won $6,000+ cash + $5K AWS credits** at HackFS! A 3D Multiplayer Fighting Game with NFTs. |
+|  [**CryptoClash**](https://github.com/shreybirmiwal/CryptoClash-HackFS2024) | **🏆 Won $11,000** at HackFS! A 3D Multiplayer Fighting Game with NFTs. |
 |  [**MOVEMENT**](https://github.com/shreybirmiwal/movement) | **🏆 Won $100** at Frameworks Hackathon! Decentralized GoFundMe + Change.org. |
 |  [**TrainAi**](https://github.com/shreybirmiwal/trainAI) | Incentivizes sorting, labeling, and preprocessing image data for AI training with crypto. |
 |  [**PaperDex**](https://github.com/shreybirmiwal/PaperDex) | Chrome extension for paper trading cryptocurrencies on DexScreener. |
