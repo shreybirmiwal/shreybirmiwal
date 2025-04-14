@@ -32,7 +32,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 ## **Hardware**  
 | Project | Description |
 |---------|-------------|
-|  [**Nand2Tetris**](https://github.com/shreybirmiwal/nand2tetris) | Building a computer in HDL from the ground up using NAND chips (*in progress*). |
+|  [**Nand2Tetris**](https://github.com/shreybirmiwal/nand2tetris) | Building a computer in HDL from the ground up using NAND chips. |
 
 ---
 
@@ -41,6 +41,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 |---------|-------------|
 |  [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $3,500 FIRST PLACE** at OMI Hacks! AI-powered app to detect danger and alert family. |
 |  [**Ramba**](https://github.com/shreybirmiwal/Ramba-Nvidia-Hackathon) | The AI agent that leads your zoom calls. Built in just 2 hours @nvidiaXvercel "worlds shortest hackathon" |
+|  [**WASP**](https://github.com/shreybirmiwal/sos) | **🏆 Won $700 FIRST PLACE** at UT Austin Momentum Hackathon! Simulate 1000s of UX interviews +A/B testing with browser agents instantly. |
 
 ---
 
@@ -58,6 +59,14 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 |  [**Edualize**](https://github.com/shreybirmiwal/Edualize) | Enables teachers to create interactive 3D quizzes. |
 
 ---
+
+
+# Work Experience  
+To be written
+- coinbase swe incoming intern 2025
+- kernel founding engineer working on confidential computing
+- Jump finance swe intern
+- etc etc
 
 **Personal Site:** [shreybirmiwal.vercel.app](https://shreybirmiwal.vercel.app)  
 **Email me:** shreybirmiwal@gmail.com  
