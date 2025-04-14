@@ -41,7 +41,7 @@ Hello! I am a senior at Westwood High School in Austin, Texas.
 |---------|-------------|
 |  [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 Won $3,500 FIRST PLACE** at OMI Hacks! AI-powered app to detect danger and alert family. |
 |  [**Ramba**](https://github.com/shreybirmiwal/Ramba-Nvidia-Hackathon) | The AI agent that leads your zoom calls. Built in just 2 hours @nvidiaXvercel "worlds shortest hackathon" |
-|  [**WASP**](https://github.com/shreybirmiwal/sos) | **🏆 Won $700 FIRST PLACE** at UT Austin Momentum Hackathon! Simulate 1000s of UX interviews +A/B testing with browser agents instantly. |
+|  [**WASP**](https://github.com/shreybirmiwal/WASP) | **🏆 Won $700 FIRST PLACE** at UT Austin Momentum Hackathon! Simulate 1000s of UX interviews +A/B testing with browser agents instantly. |
 
 ---
 
