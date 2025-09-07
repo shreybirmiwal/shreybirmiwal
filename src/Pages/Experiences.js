@@ -1,9 +1,102 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import SideBar from '../Sidebar';
 import { Tweet } from 'react-tweet';
 
 
 const experiences = [
+    {
+        title: "Coinbase - Software Engineering Intern",
+        date: "Summer 2025",
+        description: [
+            "Architected and implemented end-to-end content moderation system using Go, GraphQL, and MongoDB handling race conditions and escalation workflows for 300+ cases, reducing 150,000+ illegal content impressions",
+            "Built data labeling platform for classifying social media posts (spam, high quality, etc) and ML data pipeline",
+            "Built dynamic website for Base.app using JavaScript to serve content to waitlisted users, enabling seamless post sharing from mobile app beta users to potentially new users",
+            "Developed Lin2PR Claude Code devtool with TypeScript, implementing OTEL telemetry tracking and systematic eval testbench using LLM judges for performance regression analysis",
+            "Completed 3 fully-scoped internship projects in one summer while being youngest SWE intern in company history"
+        ],
+        tags: ["work-experience"],
+        score: 0.5
+    },
+    {
+        title: "GameTok - TikTok for AI-Generated Games",
+        date: "August 2025",
+        description: [
+            "Created TikTok-style infinite scroll platform for AI-generated video games",
+            "Implemented prefetching and caching optimizations, utilized Morph LLM for real-time code generation",
+            "Built full-stack application with built-in game generation from natural language prompts",
+            "Built in 5 hours for YCombinator Hackathon 2025, showcasing rapid prototyping and innovative game delivery"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/GameTok" }
+        ],
+        tags: ["project"],
+        score: 1.5
+    },
+    {
+        title: "WASP - UX AI Simulation Tool",
+        date: "2024",
+        description: [
+            "Built tool to simulate thousands of UX research interviews using AI agents",
+            "Won $700 at UT Austin hackathon — 1st place overall and AI category",
+            "Enables instant A/B testing with browser agents for rapid UX iteration"
+        ],
+        tags: ["project"],
+        score: 2
+    },
+    {
+        title: "Jest - Marriage Pact for Jester West Dorm",
+        date: "2024",
+        description: [
+            "Created marriage pact app specifically for Jester West dorm at UT Austin",
+            "Achieved 300+ downloads among dorm residents",
+            "Built social matching platform for college students"
+        ],
+        tags: ["project"],
+        score: 2.5
+    },
+    {
+        title: "GoonBase - Patreon Built on Base",
+        date: "2024",
+        description: [
+            "Built Patreon-style platform on Base blockchain for the baseapp community",
+            "Implemented crypto-native creator economy features",
+            "Enabled decentralized content monetization"
+        ],
+        tags: ["blockchain"],
+        score: 3.5
+    },
+    {
+        title: "GoonLock - MacOS Distraction Blocker",
+        date: "2024",
+        description: [
+            "Built MacOS app that texts your ex if you're distracted",
+            "Uses YOLOv8 computer vision to detect phone usage and automatically sends custom messages",
+            "Integrated with macOS Messages app for automated notifications",
+            "Features configurable recipients and custom message templates"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/goonlock" }
+        ],
+        tags: ["project"],
+        score: 4.5
+    },
+    {
+        title: "Ramba_Mamba Game Dev - YouTube Channel",
+        date: "Age 13 - Ongoing",
+        description: [
+            "Created educational content teaching 3D game development using Unity and C# since age 13",
+            "Reached 250 subscribers, 20,000+ views, and built a Discord community of 2,000+ members",
+            "Produced tutorials and guides for aspiring game developers",
+            "Built engaged community around game development education"
+        ],
+        video: "https://www.youtube.com/watch?v=rD4c3j8jWJI",
+        caption: "Sample tutorial from Ramba_Mamba YouTube channel",
+        links: [
+            { text: "YouTube Channel", url: "https://www.youtube.com/@Ramba_Mamba" }
+        ],
+        tags: ["project"],
+        score: 5
+    },
     {
         title: "Unagi - $16,000 in Prizes @ETHDenver",
         date: "12th Grade 2025",
@@ -392,31 +485,10 @@ const experiences = [
 
 ];
 function Experiences() {
-    const [activeTag, setActiveTag] = useState("all");
-    const tags = useMemo(() => {
-        const allTags = experiences.flatMap(exp => exp.tags);
-        return [...new Set(allTags), "all"];
-
+    const sortedExperiences = useMemo(() => {
+        return experiences.sort((a, b) => a.score - b.score);
     }, []);
 
-    const filteredExperiences = useMemo(() => {
-        if (activeTag === "all") {
-            return experiences;
-        }
-        return experiences.filter(exp => exp.tags.includes(activeTag));
-    }, [activeTag]);
-
-    const sortedExperiences = useMemo(() => {
-        return filteredExperiences.sort((a, b) => a.score - b.score);
-    }, [filteredExperiences]);
-
-    // Define specific colors for each tag
-    const tagColors = {
-        blockchain: 'bg-purple-200 text-purple-800',
-        'work-experience': 'bg-yellow-200 text-yellow-800',
-        hardware: 'bg-green-200 text-green-800',
-        project: 'bg-blue-200 text-blue-800',
-    };
 
     return (
         <div className="flex flex-grow min-h-screen">
@@ -424,22 +496,6 @@ function Experiences() {
             <div className="w-5/6 p-10">
                 <h1 className='h1 mb-5'>Experiences</h1>
 
-                {/* Tags Filter */}
-                Filter Results: {activeTag}
-                <div className="mb-5">
-                    {tags.map((tag) => (
-                        <button
-                            key={tag}
-                            className={`mr-2 mb-2 px-3 py-1 rounded text-sm transition-colors 
-                                ${activeTag === tag
-                                    ? `${tagColors[tag] || 'bg-gray-600 text-white'}`
-                                    : `${tagColors[tag] || 'bg-gray-300'} hover:bg-opacity-60`}`}
-                            onClick={() => setActiveTag(tag)}
-                        >
-                            {tag}
-                        </button>
-                    ))}
-                </div>
 
                 {/* Experience Cards */}
                 {sortedExperiences.map((exp, index) => (

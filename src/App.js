@@ -4,7 +4,6 @@ import Blog0 from './Blogs/Blog0';
 import Blog1 from './Blogs/Blog1';
 import SideBar from './Sidebar';
 import Blog from './Pages/Blog';
-import Home from './Pages/Home';
 import Blog2 from './Blogs/Blog2';
 import Experiences from './Pages/Experiences';
 
@@ -29,7 +28,6 @@ function MobileNav() {
         className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline font-mono"
         onChange={(e) => window.location.href = e.target.value}
       >
-        <option value="/">Home</option>
         <option value="/experiences">Experiences</option>
         <option value="/blog">Blog</option>
 
@@ -55,12 +53,11 @@ function App() {
       <div>
         {isMobile && <MobileNav />}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Experiences />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
           <Route path="/blog/2" element={<BlogPost postnum={2} />} />
-          <Route path="/experiences" element={<Experiences />} />
 
         </Routes>
       </div>

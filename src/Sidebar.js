@@ -6,8 +6,7 @@ function SideBar() {
             <div className="flex justify-center">
 
                 <div className="flex flex-col justify-start h-full">
-                    <Link to="/" className="p-5 ">Home</Link>
-                    <Link to="/experiences" className="p-5 ">Experiences</Link>
+                    <Link to="/" className="p-5 ">Experiences</Link>
                     <Link to="/blog" className="p-5 ">Blog</Link>
 
                 </div>
