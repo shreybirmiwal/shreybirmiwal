@@ -7,7 +7,7 @@ function Blog() {
         <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
-                <h1 className='h1 mb-5'>Blog</h1>
+                <h1 className='h1 mb-5'>blog</h1>
                 <div className="text-blue-500 underline cursor-pointer flex flex-col space-y-2">
                     <Link to="/blog/2">[2] Demo federated learning with no external packages</Link>
                     <Link to="/blog/1">[1] Simplified Back Propagation in native Python</Link>

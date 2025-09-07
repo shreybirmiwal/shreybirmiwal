@@ -28,8 +28,8 @@ function MobileNav() {
         className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline font-mono"
         onChange={(e) => window.location.href = e.target.value}
       >
-        <option value="/experiences">Experiences</option>
-        <option value="/blog">Blog</option>
+        <option value="/experiences">interests</option>
+        <option value="/blog">blog</option>
 
       </select>
     </div>

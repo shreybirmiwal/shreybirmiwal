@@ -33,7 +33,7 @@ const experiences = [
         score: 1.5
     },
     {
-        title: "WASP - UX AI Simulation Tool",
+        title: "WASP - $700 Winner @UT Austin Hackathon",
         date: "2024",
         description: [
             "Built tool to simulate thousands of UX research interviews using AI agents",
@@ -82,14 +82,14 @@ const experiences = [
     },
     {
         title: "Ramba_Mamba Game Dev - YouTube Channel",
-        date: "Age 13 - Ongoing",
+        date: "Age 13",
         description: [
             "Created educational content teaching 3D game development using Unity and C# since age 13",
             "Reached 250 subscribers, 20,000+ views, and built a Discord community of 2,000+ members",
             "Produced tutorials and guides for aspiring game developers",
             "Built engaged community around game development education"
         ],
-        video: "https://www.youtube.com/watch?v=rD4c3j8jWJI",
+        video: "https://www.youtube.com/embed/rD4c3j8jWJI",
         caption: "Sample tutorial from Ramba_Mamba YouTube channel",
         links: [
             { text: "YouTube Channel", url: "https://www.youtube.com/@Ramba_Mamba" }
@@ -116,7 +116,7 @@ const experiences = [
         score: 1
     },
     {
-        title: "SOS - OMI ai necklace app winner @hackOMI",
+        title: "SOS - $3,500 Winner @OMI Hacks",
         date: "12th Grade 2024",
         description: [
             "Built an OMI (an ai necklace) app that detects when you are in danger and automatically contacts emergency services",
@@ -132,7 +132,7 @@ const experiences = [
         score: 3
     },
     {
-        title: "Loop - Onchain RLHF Platform @EthSF",
+        title: "Loop - $3,000 Winner @EthSF",
         date: "12th Grade 2024",
         description: [
             "Built a decentralized RLHF (Reinforcement Learning with Human Feedback) platform on blockchain",
@@ -178,7 +178,7 @@ const experiences = [
         score: 8
     },
     {
-        title: "CryptoClash - Winner @EthGlobal HackFS",
+        title: "CryptoClash - $11,000 Winner @EthGlobal HackFS",
         date: "11th Grade 2024",
         description: [
             "Built a 3D, Multiplayer, Metaverse boxing video game w/NFTs using Unity in 3weeks during hackFS!",
@@ -250,7 +250,7 @@ const experiences = [
         score: 14
     },
     {
-        title: "Movement - Hackathon Project",
+        title: "Movement - $100 Winner @EthGlobal Frameworks",
         date: "11th Grade 2024",
         description: [
             "Built a decentralized farcaster frame that enables 'gofundme' X 'change.org' with cryptocurrency",
@@ -494,7 +494,7 @@ function Experiences() {
         <div className="flex flex-grow min-h-screen">
             <SideBar />
             <div className="w-5/6 p-10">
-                <h1 className='h1 mb-5'>Experiences</h1>
+                <h1 className='h1 mb-5'>interests</h1>
 
 
                 {/* Experience Cards */}
