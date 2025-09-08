@@ -26,7 +26,7 @@ const experiences = [
             "Built full-stack application with built-in game generation from natural language prompts",
             "Built in 5 hours for YCombinator Hackathon 2025, showcasing rapid prototyping and innovative game delivery"
         ],
-        video: "https://youtu.be/oThf0wOOKQE",
+        video: "https://www.youtube.com/embed/oThf0wOOKQE",
         links: [
             { text: "Github Repo", url: "https://github.com/shreybirmiwal/GameTok" }
         ],
@@ -41,7 +41,7 @@ const experiences = [
             "Won $700 at UT Austin hackathon — 1st place overall and AI category",
             "Enables instant A/B testing with browser agents for rapid UX iteration"
         ],
-        video: "https://youtu.be/wmsZRCeKpsU?si=B3AHqCbhzIc1v8iO",
+        video: "https://www.youtube.com/embed/wmsZRCeKpsU",
         tags: ["project"],
         score: 2
     },
