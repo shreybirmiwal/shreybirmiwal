@@ -18,6 +18,22 @@ const experiences = [
         score: 0.5
     },
     {
+        title: "hashMind - Energy Market Prediction with Human Simulation",
+        date: "2025",
+        description: [
+            "Real-time energy pricing visualization tool combining Texas ERCOT grid data with AI-powered scenario analysis",
+            "Interactive map visualizing energy prices across Texas with color-coded points and heatmaps",
+            "AI scenarios: Ask 'what if' questions (e.g., 'What happens if a hurricane hits Houston?') and see energy price reactions",
+            "People simulation: 100 simulated Texans with unique personalities react to events and move around the map",
+            "Live energy pricing from Texas grid via GridStatus API with realistic scenario modeling"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/mara-hack" }
+        ],
+        tags: ["project", "ai"],
+        score: 1.2
+    },
+    {
         title: "GameTok - TikTok for AI-Generated Games",
         date: "August 2025",
         description: [

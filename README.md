@@ -16,9 +16,10 @@
 ## **AI**  
 | Project | Description |
 |---------|-------------|
+|  [**hashMind**](https://github.com/shreybirmiwal/mara-hack) | **Real-time energy pricing visualization** combining Texas ERCOT grid data with AI-powered scenario analysis and human behavior simulation. Interactive map with 100 simulated Texans reacting to events. |
 |  [**FedLearning**](https://github.com/shreybirmiwal/fedlearning) | Interactive site exploring federated learning with pseudo-servers. |
 |  [**CollegeAcceptancePredictor**](https://github.com/shreybirmiwal/college-predictor) | Predicts college acceptances using data scraped from r/collegeresults. |
-|  [**GPT-2 Implementation**](https://github.com/shreybirmiwal/ml-research) | Reimplementing GPT-2 from scratch following Karpathy’s guide (*in progress*). |
+|  [**GPT-2 Implementation**](https://github.com/shreybirmiwal/ml-research) | Reimplementing GPT-2 from scratch following Karpathy's guide (*in progress*). |
 |  [**ShopifyReviews**](https://github.com/shreybirmiwal/finetuned-llama2-user_reviews) | Finetuned a llama2 model to analyze Shopify user reviews. |
 |  [**Memary**](https://github.com/kingjulio8238/Memary/pull/26) | Contributed features to a collaborative memory system for AI agents. |
 
