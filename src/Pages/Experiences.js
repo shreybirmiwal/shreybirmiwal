@@ -53,6 +53,7 @@ const experiences = [
             "Achieved 300+ downloads among dorm residents",
             "Built social matching platform for college students"
         ],
+        tweet: "1965289382631600231",
         tags: ["project"],
         score: 2.5
     },
