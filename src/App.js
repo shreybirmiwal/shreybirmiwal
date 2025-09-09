@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Blog0 from './Blogs/Blog0';
 import Blog1 from './Blogs/Blog1';
 import SideBar from './Sidebar';
@@ -28,7 +28,7 @@ function MobileNav() {
         className="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline font-mono"
         onChange={(e) => window.location.href = e.target.value}
       >
-        <option value="/experiences">interests</option>
+        <option value="/">interests</option>
         <option value="/blog">blog</option>
 
       </select>
@@ -54,6 +54,7 @@ function App() {
         {isMobile && <MobileNav />}
         <Routes>
           <Route path="/" element={<Experiences />} />
+          <Route path="/experiences" element={<Experiences />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/0" element={<BlogPost postnum={0} />} />
           <Route path="/blog/1" element={<BlogPost postnum={1} />} />
