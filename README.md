@@ -35,11 +35,12 @@
 ## **Cool Projects**  
 | Project | Description |
 |---------|-------------|
+|  [**djeet**](https://djeet.vercel.app/) | **🏆 $225 Winner** at 2025 TVG Vibeathon! Live DJ mixing platform with drag-and-drop interface. Built in 5 hours - pick songs, drag onto canvas, connect with seamless transitions. |
 |  [**GameTok**](https://github.com/shreybirmiwal/GameTok) | **🏆 YCombinator Hackathon 2025!** TikTok-style infinite scroll platform for AI-generated video games. Built in 5 hours with Morph LLM and real-time code generation. |
 |  [**WASP**](https://github.com/shreybirmiwal/WASP) | **🏆 $700 Winner** at UT Austin Momentum Hackathon! Simulate 1000s of UX interviews +A/B testing with browser agents instantly. |
 |  [**Jest**](https://github.com/shreybirmiwal/Jest) | Marriage pact app for Jester West dorm at UT Austin. Achieved 300+ downloads among dorm residents. |
 |  [**GoonBase**](https://github.com/shreybirmiwal/goonbase) | Patreon-style platform built on Base blockchain for the baseapp community. Crypto-native creator economy features. |
-|  [**GoonLock**](https://github.com/shreybirmiwal/goonlock) | MacOS app that texts your ex if you're distracted. Uses YOLOv8 computer vision to detect phone usage and automatically sends custom messages. |
+|  [**GoonLock**](https://github.com/shreybirmiwal/goonlock) | MacOS app that texts your ex if you're distracted. Uses YOLOv8 computer vision to detect phone usage and automatically sends texts to your ex. |
 |  [**Ramba_Mamba Game Dev**](https://www.youtube.com/@Ramba_Mamba) | **🎥 YouTube Channel** - Educational content teaching 3D game development using Unity and C# since age 13. 250 subscribers, 20,000+ views, 2,000+ Discord members. |
 |  [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 $3,500 Winner** at OMI Hacks! AI-powered app to detect danger and alert family. |
 |  [**Ramba**](https://github.com/shreybirmiwal/Ramba-Nvidia-Hackathon) | The AI agent that leads your zoom calls. Built in just 2 hours @nvidiaXvercel "worlds shortest hackathon" |

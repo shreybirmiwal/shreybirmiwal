@@ -18,6 +18,24 @@ const experiences = [
         score: 0.5
     },
     {
+        title: "djeet - Live DJ Mixing for Everyone",
+        date: "October 2025",
+        description: [
+            "🏆 Won $225 first place at 2025 TVG Vibeathon at UT Austin!",
+            "Built in just 5 hours - drag and drop DJ mixing platform for everyone",
+            "Pick your songs and drag them onto the canvas, connect them with seamless transitions",
+            "Live DJ mixing tool that makes music creation accessible to all skill levels",
+            "Team project with Avi Agarwal, Rishik Kolpekwar, and Arjan Suri"
+        ],
+        video: "https://www.youtube.com/embed/Yv_T6-TViBY",
+        links: [
+            { text: "Live Demo", url: "https://djeet.vercel.app/" },
+            { text: "Github Repo", url: "https://github.com/notaviagrawal/hackathon-dj" }
+        ],
+        tags: ["project"],
+        score: 0.8
+    },
+    {
         title: "hashMind - Energy Market Prediction with Human Simulation",
         date: "2025",
         description: [
@@ -93,6 +111,7 @@ const experiences = [
             "Integrated with macOS Messages app for automated notifications",
             "Features configurable recipients and custom message templates"
         ],
+        video: "goonlock.mp4",
         links: [
             { text: "Github Repo", url: "https://github.com/shreybirmiwal/goonlock" }
         ],
