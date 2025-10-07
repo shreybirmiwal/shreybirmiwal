@@ -18,6 +18,22 @@ const experiences = [
         score: 0.5
     },
     {
+        title: "Uxer - MCP for Cursor Browser Testing",
+        date: "January 2025",
+        description: [
+            "Built MCP (Model Context Protocol) that enables Cursor to autonomously test and iterate on web applications",
+            "Gives Cursor access to control your localhost browser and test E2E features in-the-loop",
+            "Enables systematic bug fixing, visual validation (like centering divs), and iterative app development without human intervention",
+            "Cursor can now 'see' and test the UX of apps it creates, eliminating the need for manual testing cycles"
+        ],
+        tweet: "1946321493513925100",
+        links: [
+            { text: "Twitter Thread", url: "https://x.com/shreybirmiwal/status/1946321493513925100" }
+        ],
+        tags: ["project", "ai"],
+        score: 0.7
+    },
+    {
         title: "djeet - Live DJ Mixing for Everyone",
         date: "October 2025",
         description: [
@@ -111,7 +127,7 @@ const experiences = [
             "Integrated with macOS Messages app for automated notifications",
             "Features configurable recipients and custom message templates"
         ],
-        video: "goonlock.mp4",
+        tweet: "1965561003615326380",
         links: [
             { text: "Github Repo", url: "https://github.com/shreybirmiwal/goonlock" }
         ],

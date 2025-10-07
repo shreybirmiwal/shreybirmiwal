@@ -35,8 +35,9 @@
 ## **Cool Projects**  
 | Project | Description |
 |---------|-------------|
+|  [**Uxer**](https://x.com/shreybirmiwal/status/1946321493513925100) | MCP (Model Context Protocol) that enables Cursor to open up your web app, test it, and iterate on it. Gives Cursor access to control your localhost browser and test E2E features autonomously. |
 |  [**djeet**](https://github.com/notaviagrawal/hackathon-dj) | **🏆 $225 Winner** at 2025 TVG Vibeathon! Live DJ mixing platform with drag-and-drop interface. Built in 5 hours - pick songs, drag onto canvas, connect with seamless transitions. |
-|  [**GameTok**](https://github.com/shreybirmiwal/GameTok) | **🏆 YCombinator Hackathon 2025!** TikTok-style infinite scroll platform for AI-generated video games. Built in 5 hours with Morph LLM and real-time code generation. |
+|  [**GameTok**](https://github.com/shreybirmiwal/GameTok) | **YCombinator Hackathon 2025!** TikTok-style infinite scroll platform for AI-generated video games. Built in 5 hours with Morph LLM and real-time code generation. |
 |  [**WASP**](https://github.com/shreybirmiwal/WASP) | **🏆 $700 Winner** at UT Austin Momentum Hackathon! Simulate 1000s of UX interviews +A/B testing with browser agents instantly. |
 |  [**Jest**](https://github.com/shreybirmiwal/Jest) | Marriage pact app for Jester West dorm at UT Austin. Achieved 300+ downloads among dorm residents. |
 |  [**GoonBase**](https://github.com/shreybirmiwal/goonbase) | Patreon-style platform built on Base blockchain for the baseapp community. Crypto-native creator economy features. |
