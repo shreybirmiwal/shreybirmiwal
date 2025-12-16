@@ -108,6 +108,78 @@ const experiences = [
         score: 2.5
     },
     {
+        title: "MESI-cache-protocol - Cache Coherence Simulator",
+        date: "2024",
+        description: [
+            "Built simulator for the MESI (Modified, Exclusive, Shared, Invalid) cache coherence protocol for multi-core systems",
+            "Demonstrates how cache coherency works across multiple CPU cores",
+            "Created interactive React frontend visualization to explore cache state transitions",
+            "Wrote backend Python simulation engine that models cache line states and bus snooping"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/MESI-cache-protocol" },
+            { text: "Live Demo", url: "https://mesi-cache-protocol.vercel.app" }
+        ],
+        tags: ["hardware"],
+        score: 3
+    },
+    {
+        title: "mbc - Bazaar (MBC Hackathon 2025)",
+        date: "2025",
+        description: [
+            "Built Bazaar for MBC Hackathon 2025 - tokenizes API pricing structures",
+            "Creates dynamic marketplace where each API has its own tradeable token",
+            "Market-driven pricing adjusts automatically based on real demand using x402 and Flaunch",
+            "Enables developers to buy tokens, trade with other APIs, and take speculative positions on API tokens",
+            "Built Flask backend with React frontend, integrated with Base blockchain network"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/mbc" }
+        ],
+        tags: ["blockchain"],
+        score: 1.5
+    },
+    {
+        title: "cbp2025 - Championship Branch Prediction",
+        date: "2025",
+        description: [
+            "Implemented multiple branch predictors: bimodal, gshare, and perceptron predictors"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/cbp2025" }
+        ],
+        tags: ["hardware"],
+        score: 4
+    },
+    {
+        title: "papertrade-polymarket",
+        date: "2024",
+        description: [
+            "Built paper trading platform for Polymarket prediction markets",
+            "Enables users to practice trading on prediction markets without real money",
+            "Simulates market dynamics and allows users to test trading strategies"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/papertrade-polymarket" }
+        ],
+        tags: ["blockchain"],
+        score: 6
+    },
+    {
+        title: "StockBenchmark",
+        date: "2024",
+        description: [
+            "Built stock trading benchmark and analysis tool",
+            "Provides tools for analyzing and benchmarking stock trading strategies",
+            "Enables performance evaluation of trading algorithms"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/StockBenchmark" }
+        ],
+        tags: ["project"],
+        score: 7
+    },
+    {
         title: "GoonBase - Patreon Built on Base",
         date: "2024",
         description: [
