@@ -10,6 +10,7 @@
 |  [**TrainAi**](https://github.com/shreybirmiwal/trainAI) | Incentivizes sorting, labeling, and preprocessing image data for AI training with crypto. |
 |  [**PaperDex**](https://github.com/shreybirmiwal/PaperDex) | Chrome extension for paper trading cryptocurrencies on DexScreener. |
 |  [**CryptoWrapped**](https://github.com/shreybirmiwal/CryptoWrapped) | SpotifyWrapped - for your cryptocurrency trades. Simply enter your ETH address. |
+|  [**mbc**](https://github.com/shreybirmiwal/mbc) | **MBC Hackathon 2025!** Bazaar - Tokenizes API pricing structures, creating a dynamic marketplace where each API has its own tradeable token. Market-driven pricing that adjusts based on real demand using x402 and Flaunch. |
 
 ---
 
@@ -29,6 +30,8 @@
 | Project | Description |
 |---------|-------------|
 |  [**Nand2Tetris**](https://github.com/shreybirmiwal/nand2tetris) | Building a computer in HDL from the ground up using NAND chips. |
+|  [**MESI-cache-protocol**](https://github.com/shreybirmiwal/MESI-cache-protocol) | Simulates the MESI (Modified, Exclusive, Shared, Invalid) cache coherence protocol for multi-core systems. Interactive visualization demonstrating how cache coherency works. |
+|  [**cbp2025**](https://github.com/shreybirmiwal/cbp2025) | Championship Branch Prediction 2025 - Implemented multiple branch predictors (bimodal, gshare, perceptron) to test and optimize CPU branch prediction accuracy. |
 
 ---
 
@@ -55,6 +58,8 @@
 |  [**TrackItNow**](https://github.com/shreybirmiwal/trackitnow) | Inventory management system for a volunteering org managing $15K+. |
 |  [**RateMyJudge**](https://github.com/shreybirmiwal/ratemyjudge) | Like RateMyProf, but for analyzing debate judge preferences. |
 |  [**Stockr**](https://github.com/shreybirmiwal/stockr-game) | Practice trading stocks on real historical data. |
+|  [**StockBenchmark**](https://github.com/shreybirmiwal/StockBenchmark) | Stock trading benchmark and analysis tool. |
+|  [**papertrade-polymarket**](https://github.com/shreybirmiwal/papertrade-polymarket) | Paper trading platform for Polymarket prediction markets. |
 |  [**ClassBot**](https://github.com/shreybirmiwal/ClassBot) | Bot that auto-joins online classes (COVID-19 project). |
 |  [**PooKarma**](https://github.com/shreybirmiwal/PooKarma-HackTheFutureHackathon2023) | Social app rewarding users for picking up dog poop (HackTX project). |
 |  [**InSight**](https://github.com/shreybirmiwal/inSight-Chrome-Extension) | Chrome extension generating image summaries to improve text comprehension. |
