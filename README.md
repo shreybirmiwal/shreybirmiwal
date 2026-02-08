@@ -17,7 +17,7 @@
 ## **AI**  
 | Project | Description |
 |---------|-------------|
-|  [**hashMind**](https://github.com/shreybirmiwal/mara-hack) | **Real-time energy pricing visualization** combining Texas ERCOT grid data with AI-powered scenario analysis and human behavior simulation. Interactive map with 100 simulated Texans reacting to events. |
+|  [**CORCH**](https://github.com/shreybirmiwal/CTorch/) | Autograd engine from scratch in C |
 |  [**FedLearning**](https://github.com/shreybirmiwal/fedlearning) | Interactive site exploring federated learning with pseudo-servers. |
 |  [**CollegeAcceptancePredictor**](https://github.com/shreybirmiwal/college-predictor) | Predicts college acceptances using data scraped from r/collegeresults. |
 |  [**GPT-2 Implementation**](https://github.com/shreybirmiwal/ml-research) | Reimplementing GPT-2 from scratch following Karpathy's guide (*in progress*). |
@@ -48,6 +48,8 @@
 |  [**Ramba_Mamba Game Dev**](https://www.youtube.com/@Ramba_Mamba) | **🎥 YouTube Channel** - Educational content teaching 3D game development using Unity and C# since age 13. 250 subscribers, 20,000+ views, 2,000+ Discord members. |
 |  [**SOS**](https://github.com/shreybirmiwal/sos) | **🏆 $3,500 Winner** at OMI Hacks! AI-powered app to detect danger and alert family. |
 |  [**Ramba**](https://github.com/shreybirmiwal/Ramba-Nvidia-Hackathon) | The AI agent that leads your zoom calls. Built in just 2 hours @nvidiaXvercel "worlds shortest hackathon" |
+|  [**hashMind**](https://github.com/shreybirmiwal/mara-hack) | **Real-time energy pricing visualization** combining Texas ERCOT grid data with AI simulations. Got top 5 at MARA hackathon in SF 🏆|
+
 
 
 ---
