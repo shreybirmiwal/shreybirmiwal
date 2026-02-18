@@ -5,6 +5,23 @@ import { Tweet } from 'react-tweet';
 
 const experiences = [
     {
+        title: "Mirage - 1st Place Modal Inference Track @TreeHacks 2026",
+        date: "February 2026",
+        description: [
+            "🏆 Won 1st place Modal inference track at TreeHacks 2026!",
+            "Robots and self-driving cars need training data — current datasets overrepresent common scenarios and miss dangerous edge cases",
+            "Users prompt edge-case scenarios (e.g. 'road with a fallen tree') and an LLM on Google Cloud expands the prompt",
+            "Veo3 on Google Cloud generates a video of the simulated scene; Modal's H100 GPUs run Gaussian Splatting to produce a full 3D world model",
+            "Enables training on rare, hard-to-capture situations — inspired by Waymo's similar research direction",
+            "Built with Kyan Yang, Kevin Thomas, and Adi Prasad"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/kyan-yang/Mirage" }
+        ],
+        tags: ["project", "ai"],
+        score: 0.3
+    },
+    {
         title: "Coinbase - Software Engineering Intern",
         date: "Summer 2025",
         description: [

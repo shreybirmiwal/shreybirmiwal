@@ -35,9 +35,10 @@
 
 ---
 
-## **Cool Projects**  
+## **Cool Projects**
 | Project | Description |
 |---------|-------------|
+|  [**Mirage**](https://github.com/kyan-yang/Mirage) | **🏆 Won 1st Place Modal Inference Track @TreeHacks 2026!** Synthesizes 3D world-model training data for robots and self-driving cars covering hard-to-capture edge cases (e.g. driving in a hailstorm). Uses Veo3 + Gaussian Splatting on H100 GPUs. |
 |  [**Uxer**](https://x.com/shreybirmiwal/status/1946321493513925100) | MCP (Model Context Protocol) that enables Cursor to open up your web app, test it, and iterate on it. Gives Cursor access to control your localhost browser and test E2E features autonomously. |
 |  [**djeet**](https://github.com/notaviagrawal/hackathon-dj) | **🏆 $225 Winner** at 2025 TVG Vibeathon! Live DJ mixing platform with drag-and-drop interface. Built in 5 hours - pick songs, drag onto canvas, connect with seamless transitions. |
 |  [**GameTok**](https://github.com/shreybirmiwal/GameTok) | **YCombinator Hackathon 2025!** TikTok-style infinite scroll platform for AI-generated video games. Built in 5 hours with Morph LLM and real-time code generation. |
