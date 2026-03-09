@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function SideBar() {
     return (
         <div className="w-1/6 border-r-2 border-r-gray-500 pt-5 hidden md:block">

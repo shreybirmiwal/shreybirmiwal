@@ -98,7 +98,7 @@ while loss > 1:
                 Hi, for the past week I learned about back prop, the underlining algorithm behind machine learning <br />
                 This is how I made an extremely simplified back prop example using Python!<br /><br />
                 Say we have a dataset that looks something like this:
-                <img src='/blog1/fig1.png' style={{ width: '600px' }}></img>
+                <img src='/blog1/fig1.png' alt='Example dataset with a downward linear trend' style={{ width: '600px' }}></img>
 
                 We as humans can recognize the linear, downward trend in the data   <br />
                 However, how would you train a computer to recognize this trend? <br /><br />
@@ -112,7 +112,7 @@ while loss > 1:
 
 
                 Here is how we will approach this problem:
-                <img src='/blog1/fig2.png' style={{ width: '500px' }} className='border-black border my-5'></img>
+                <img src='/blog1/fig2.png' alt='Backprop workflow diagram for the toy linear model' style={{ width: '500px' }} className='border-black border my-5'></img>
 
                 The first part: 'Start with random weights and bias' is easy.
 
@@ -131,7 +131,7 @@ while loss > 1:
 
                 This is important because if you KNOW that increasing the weight will decrease the loss, you can simply increase the weight until the loss is close to 0 (perfect model). <br />
 
-                <img src='/blog1/fig3.png' style={{ width: '500px' }} className='border-black border my-5'></img>
+                <img src='/blog1/fig3.png' alt='Derivative intuition diagram for updating weight and bias' style={{ width: '500px' }} className='border-black border my-5'></img>
                 <SyntaxHighlighter language="python" style={darcula}>{code3}</SyntaxHighlighter>
 
                 <br />
