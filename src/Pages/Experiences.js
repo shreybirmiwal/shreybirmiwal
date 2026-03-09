@@ -51,6 +51,23 @@ const experiences = [
         score: 0.7
     },
     {
+        title: "GCinema - AI-Powered Silent Film Colorization",
+        date: "2026",
+        description: [
+            "Built a pipeline that takes a black-and-white silent film and produces a fully colorized version with an AI-generated soundtrack",
+            "Uses Gemini for scene segmentation, detailed scene reasoning, keyframe colorization, and audio planning",
+            "Generates per-scene colorized clips with Veo, Kling, or Wan, then time-matches and stitches them back into a restored full film",
+            "Adds synchronized music, dialogue, and foley with Gemini Lyria and ElevenLabs"
+        ],
+        tweet: "2030788622220423596",
+        links: [
+            { text: "Github Repo", url: "https://github.com/shreybirmiwal/GCinema" },
+            { text: "Tweet", url: "https://x.com/shreybirmiwal/status/2030788622220423596" }
+        ],
+        tags: ["project", "ai"],
+        score: 0.75
+    },
+    {
         title: "djeet - Live DJ Mixing for Everyone",
         date: "October 2025",
         description: [
