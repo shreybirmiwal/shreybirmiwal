@@ -1,4 +1,4 @@
-# Projects      
+# Projects         
 
 ## **Blockchain**  
 | Project | Description |
