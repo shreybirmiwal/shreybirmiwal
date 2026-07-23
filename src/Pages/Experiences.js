@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import SideBar from '../Sidebar';
 import { Tweet } from 'react-tweet';
+import TweetBoundary from '../TweetBoundary';
 
 
 const experiences = [
@@ -703,7 +704,11 @@ function Experiences() {
                             <a key={i} href={link.url} className='block underline text-blue-500'>{link.text}</a>
                         ))}
 
-                        {exp.tweet && <Tweet id={exp.tweet} />}
+                        {exp.tweet && (
+                            <TweetBoundary id={exp.tweet}>
+                                <Tweet id={exp.tweet} />
+                            </TweetBoundary>
+                        )}
                     </div>
                 ))}
             </div>
