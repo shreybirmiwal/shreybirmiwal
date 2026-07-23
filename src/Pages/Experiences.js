@@ -6,6 +6,56 @@ import TweetBoundary from '../TweetBoundary';
 
 const experiences = [
     {
+        title: "Morph - Machine Learning Engineering Intern",
+        date: "May 2026 - Present",
+        description: [
+            "Designed a scoring-based, capacity-aware router for a heterogeneous SGLang model gateway — scoring backends on queue depth, latency fit, and cache locality to cut TTFT and queue times ~30%",
+            "Adapted Activated-LoRA into vLLM's inference path to mask LoRA compute over prior tokens, cutting latency 55% and raising max throughput 17% at long context lengths",
+            "Built the classifier serving path: an async batch queue that drains into a live 'sink' path so batched work runs under low load at ~90ms end-to-end",
+            "Fine-tuned small LoRA classifiers via SFT for jailbreak detection and agent-loop detection, and built their serving path",
+            "(Research, in progress) Training a neural cross-model KV-cache translation model up to 10x faster than re-prefilling from scratch — unraveling RoPE and evaluating with NMSE, KL divergence, and held-out GPT evals"
+        ],
+        tags: ["work-experience", "ai"],
+        score: 0.1
+    },
+    {
+        title: "Bite the Bullet - LLM Inference Serving",
+        date: "2026",
+        description: [
+            "Built an inference-serving technique that predicts large request bursts and proactively replicates KV cache from RDMA into HBM",
+            "Delivers an up to 50% reduction in TTFT under bursty load"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/jwlaboratory/bite-the-bullet" }
+        ],
+        tags: ["project", "ai"],
+        score: 0.55
+    },
+    {
+        title: "SpecSpec - Specializing Speculative Decoding with LoRA",
+        date: "2026",
+        description: [
+            "Used LoRA specialization on diffusion draft models to make speculative decoding up to ~15% faster on Qwen3-8B",
+            "Benchmarked cross-domain interference and adapter hot-swapping cost",
+            "Built with PyTorch, vLLM, and Modal"
+        ],
+        tags: ["project", "ai"],
+        score: 0.6
+    },
+    {
+        title: "C.Torch - PyTorch in C",
+        date: "2026",
+        description: [
+            "Built a reverse-mode autograd engine in C using a Directed Acyclic Graph and topological sort",
+            "Implemented matmul/MSE, trained an MLP from scratch, and managed low-level memory with custom free lists"
+        ],
+        links: [
+            { text: "Github Repo", url: "https://github.com/jwlaboratory/CTorch" }
+        ],
+        tags: ["project"],
+        score: 0.65
+    },
+    {
         title: "Mirage - 1st Place Modal Inference Track @TreeHacks 2026",
         date: "February 2026",
         description: [
