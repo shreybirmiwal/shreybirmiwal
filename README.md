@@ -1,6 +1,6 @@
 # Projects      
 
-## **Blockchain**  
+## **Blockchain**      
 | Project | Description |
 |---------|-------------|
 |  [**Unagi**](https://github.com/shreybirmiwal/unagi) | **🏆 Won $16,000** at EthDenver 2025! DePIN of autonomously verified security cameras |
