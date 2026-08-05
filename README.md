@@ -4,25 +4,21 @@
 A small independent research group I started, where a few friends and I tinker with LLM inference, speculative decoding, and KV-cache systems and write up what we learn. [GitHub org](https://github.com/jwlaboratory)
 
 **Research & Engineering Writing**
-| Post | Summary |
-|------|---------|
-| [**SparklingTree: 19% faster SOTA speculative decoding**](https://jwlabs.vercel.app/post/sparklingtree) | Combines first-order Markov correction (DSpark), tree-based block diffusion drafting (DDTree), and best-first search into a frontier speculator. |
-| [**Specialization is (sometimes) all Speculation needs**](https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs) | LoRA-specialized block diffusion drafters improve speculative decoding acceptance up to 46% on OOD languages (up to 15.3% wall-clock speedup). |
-| [**Biting the Bullet: Predictive Speculative KV Replication**](https://jwlabs.vercel.app/post/biting-the-bullet) | Predictive KV warming for bursty LLM inference — proactively replicating shared prefix cache to cut TTFT. |
-| [**Infer-Sim: An open-source simulator for routing & cache policies**](https://jwlabs.vercel.app/post/infer-sim) | Lightweight simulator for replaying inference workloads and testing routing/cache policies before production. |
-| [**Decoding Speculative Decoding from First Principles**](https://jwlabs.vercel.app/post/speculative-decoding-first-principles) | Walks through the history of speculative decoding, from Leviathan's drafter/verifier trick through tree verification and diffusion drafters. |
+| Post | Code | Summary |
+|------|------|---------|
+| [**SparklingTree: 19% faster SOTA speculative decoding**](https://jwlabs.vercel.app/post/sparklingtree) | [repo](https://github.com/jwlaboratory/sparkling-tree) | Combines first-order Markov correction (DSpark), tree-based block diffusion drafting (DDTree), and best-first search into a frontier speculator. |
+| [**Specialization is (sometimes) all Speculation needs**](https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs) | [repo](https://github.com/jwlaboratory/SpecSpec) | LoRA-specialized block diffusion drafters improve speculative decoding acceptance up to 46% on OOD languages (up to 15.3% wall-clock speedup). |
+| [**Biting the Bullet: Predictive Speculative KV Replication**](https://jwlabs.vercel.app/post/biting-the-bullet) | [repo](https://github.com/jwlaboratory/bite-the-bullet) | Predictive KV warming for bursty LLM inference — proactively replicating shared prefix cache to cut TTFT. |
+| [**Infer-Sim: An open-source simulator for routing & cache policies**](https://jwlabs.vercel.app/post/infer-sim) | [repo](https://github.com/jwlaboratory/inference-sim) | Lightweight simulator for replaying inference workloads and testing routing/cache policies before production. |
+| [**Decoding Speculative Decoding from First Principles**](https://jwlabs.vercel.app/post/speculative-decoding-first-principles) | — | Walks through the history of speculative decoding, from Leviathan's drafter/verifier trick through tree verification and diffusion drafters. |
 
-**Repos**
+**Other Repos**
 | Repo | Description |
 |------|-------------|
 | [**jwlabs**](https://github.com/jwlaboratory/jwlabs) | The JW Labs research site. |
-| [**sparkling-tree**](https://github.com/jwlaboratory/sparkling-tree) | SparklingTree — frontier speculative decoding. |
-| [**SpecSpec**](https://github.com/jwlaboratory/SpecSpec) | Specialized speculative decoding with LoRA. |
-| [**bite-the-bullet**](https://github.com/jwlaboratory/bite-the-bullet) | Predictive speculative KV replication for bursty inference. |
-| [**inference-sim**](https://github.com/jwlaboratory/inference-sim) | Simulator for routing algorithms and cache policies. |
+| [**CTorch**](https://github.com/jwlaboratory/CTorch) | PyTorch-style autograd engine built in C. |
 | [**flashkv**](https://github.com/jwlaboratory/flashkv) | KV-cache systems experiments. |
 | [**intellikv**](https://github.com/jwlaboratory/intellikv) | KV-cache systems experiments. |
-| [**CTorch**](https://github.com/jwlaboratory/CTorch) | PyTorch-style autograd engine built in C. |
 | [**supercoder-long-context**](https://github.com/jwlaboratory/supercoder-long-context) | SuperCoder for long-context assembly generation. |
 | [**supercoder-debug**](https://github.com/jwlaboratory/supercoder-debug) | Improving SuperCoder by RL'ing a debug stage. |
 | [**infra**](https://github.com/jwlaboratory/infra) | Benchmarking + validating ARM assembly for evals. |

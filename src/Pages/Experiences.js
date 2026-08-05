@@ -19,15 +19,16 @@ const experiences = [
         links: [
             { text: "jwlabs.vercel.app", url: "https://jwlabs.vercel.app" },
             { text: "GitHub Org", url: "https://github.com/jwlaboratory" },
-            { text: "SparklingTree (post)", url: "https://jwlabs.vercel.app/post/sparklingtree" },
-            { text: "Specialized Speculation (post)", url: "https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs" },
-            { text: "Biting the Bullet (post)", url: "https://jwlabs.vercel.app/post/biting-the-bullet" },
-            { text: "Infer-Sim (post)", url: "https://jwlabs.vercel.app/post/infer-sim" },
-            { text: "Speculative Decoding from First Principles (post)", url: "https://jwlabs.vercel.app/post/speculative-decoding-first-principles" },
-            { text: "SpecSpec repo", url: "https://github.com/jwlaboratory/SpecSpec" },
-            { text: "bite-the-bullet repo", url: "https://github.com/jwlaboratory/bite-the-bullet" },
-            { text: "inference-sim repo", url: "https://github.com/jwlaboratory/inference-sim" },
-            { text: "CTorch repo", url: "https://github.com/jwlaboratory/CTorch" }
+            { text: "SparklingTree — post", url: "https://jwlabs.vercel.app/post/sparklingtree" },
+            { text: "SparklingTree — repo", url: "https://github.com/jwlaboratory/sparkling-tree" },
+            { text: "SpecSpec — post", url: "https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs" },
+            { text: "SpecSpec — repo", url: "https://github.com/jwlaboratory/SpecSpec" },
+            { text: "Bite the Bullet — post", url: "https://jwlabs.vercel.app/post/biting-the-bullet" },
+            { text: "Bite the Bullet — repo", url: "https://github.com/jwlaboratory/bite-the-bullet" },
+            { text: "Infer-Sim — post", url: "https://jwlabs.vercel.app/post/infer-sim" },
+            { text: "Infer-Sim — repo", url: "https://github.com/jwlaboratory/inference-sim" },
+            { text: "Speculative Decoding from First Principles — post", url: "https://jwlabs.vercel.app/post/speculative-decoding-first-principles" },
+            { text: "C.Torch — repo", url: "https://github.com/jwlaboratory/CTorch" }
         ],
         tags: ["project", "ai"],
         score: 0.05
