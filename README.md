@@ -74,11 +74,6 @@
 ---
 
 
-# More stuff 
-- **Coinbase SWE Intern Summer 2025** - Architected content moderation system, built data labeling platform, developed Base.app website, created Lin2PR devtool
-- Kernel founding engineer working on confidential computing for bittensor and Akash Network
-- Jump Finance SWE intern 2023
-
 **Personal Site:** [shreybirmiwal.vercel.app](https://shreybirmiwal.vercel.app)  
 **Email me:** shrey@utexas.edu  
 
