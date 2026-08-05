@@ -1,7 +1,7 @@
 # Projects      
 
 ## **JW Labs** — [jwlabs.vercel.app](https://jwlabs.vercel.app)
-A small independent research group I'm part of, where a few friends and I tinker with LLM inference, speculative decoding, and KV-cache systems and write up what we learn. [GitHub org](https://github.com/jwlaboratory)
+A small independent research group I started, where a few friends and I tinker with LLM inference, speculative decoding, and KV-cache systems and write up what we learn. [GitHub org](https://github.com/jwlaboratory)
 
 **Research & Engineering Writing**
 | Post | Summary |

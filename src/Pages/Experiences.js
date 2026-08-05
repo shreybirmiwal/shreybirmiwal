@@ -9,7 +9,7 @@ const experiences = [
         title: "JW Labs - Independent AI Research",
         date: "2026 - Present",
         description: [
-            "A small independent research group I'm part of, where a few friends and I explore LLM inference, speculative decoding, and KV-cache systems and write up what we learn",
+            "A small independent research group I started, where a few friends and I explore LLM inference, speculative decoding, and KV-cache systems and write up what we learn",
             "SparklingTree — combined Markov correction, tree-based block diffusion drafting, and best-first search into a speculator ~19% faster than our SOTA baseline",
             "SpecSpec — explored LoRA specialization on diffusion draft models for speculative decoding, and looked at cross-domain interference and adapter hot-swapping (PyTorch, vLLM, Modal)",
             "Bite the Bullet — a prototype that predicts request bursts and proactively replicates KV cache from RDMA into HBM to reduce TTFT under bursty load",
