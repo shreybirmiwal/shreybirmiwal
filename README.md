@@ -1,7 +1,7 @@
 # Projects      
 
 ## **JW Labs** — [jwlabs.vercel.app](https://jwlabs.vercel.app)
-An independent AI research lab I co-founded, focused on LLM inference, speculative decoding, and KV-cache systems. [GitHub org](https://github.com/jwlaboratory)
+A small independent research group I'm part of, where a few friends and I tinker with LLM inference, speculative decoding, and KV-cache systems and write up what we learn. [GitHub org](https://github.com/jwlaboratory)
 
 **Research & Engineering Writing**
 | Post | Summary |
@@ -11,8 +11,6 @@ An independent AI research lab I co-founded, focused on LLM inference, speculati
 | [**Biting the Bullet: Predictive Speculative KV Replication**](https://jwlabs.vercel.app/post/biting-the-bullet) | Predictive KV warming for bursty LLM inference — proactively replicating shared prefix cache to cut TTFT. |
 | [**Infer-Sim: An open-source simulator for routing & cache policies**](https://jwlabs.vercel.app/post/infer-sim) | Lightweight simulator for replaying inference workloads and testing routing/cache policies before production. |
 | [**Decoding Speculative Decoding from First Principles**](https://jwlabs.vercel.app/post/speculative-decoding-first-principles) | Walks through the history of speculative decoding, from Leviathan's drafter/verifier trick through tree verification and diffusion drafters. |
-| [**Training an Autocomplete 'Tab' Model for AI Schematic Design**](https://jwlabs.vercel.app/post/tab-model-schematic-design) | Building a Cursor-style tab-completion model for PCB/schematic editors. |
-| [**Using LLMs + RL to Beat -O3 Assembly Code Generation**](https://jwlabs.vercel.app/post/llm-rl-assembly-codegen) | Optimizing assembly codegen via graph neural networks, compiler flag search, and LLM superoptimization. |
 
 **Repos**
 | Repo | Description |

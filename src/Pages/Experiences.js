@@ -6,15 +6,15 @@ import TweetBoundary from '../TweetBoundary';
 
 const experiences = [
     {
-        title: "JW Labs - Co-Founder, AI Research Lab",
+        title: "JW Labs - Independent AI Research",
         date: "2026 - Present",
         description: [
-            "Co-founded an independent AI research lab focused on LLM inference, speculative decoding, and KV-cache systems",
-            "SparklingTree — combined Markov correction, tree-based block diffusion drafting, and best-first search into a frontier speculator that's 19% faster than SOTA speculative decoding",
-            "SpecSpec — used LoRA specialization on diffusion draft models to make speculative decoding up to ~15% faster on Qwen3-8B; benchmarked cross-domain interference and adapter hot-swapping (PyTorch, vLLM, Modal)",
-            "Bite the Bullet — an inference-serving technique that predicts request bursts and proactively replicates KV cache from RDMA into HBM, cutting TTFT up to 50% under bursty load",
-            "Infer-Sim — open-source simulator for replaying inference workloads and testing routing algorithms and cache policies before production",
-            "C.Torch — a reverse-mode autograd engine in C (DAG + topological sort), training an MLP from scratch with custom free-list memory management"
+            "A small independent research group I'm part of, where a few friends and I explore LLM inference, speculative decoding, and KV-cache systems and write up what we learn",
+            "SparklingTree — combined Markov correction, tree-based block diffusion drafting, and best-first search into a speculator ~19% faster than our SOTA baseline",
+            "SpecSpec — explored LoRA specialization on diffusion draft models for speculative decoding, and looked at cross-domain interference and adapter hot-swapping (PyTorch, vLLM, Modal)",
+            "Bite the Bullet — a prototype that predicts request bursts and proactively replicates KV cache from RDMA into HBM to reduce TTFT under bursty load",
+            "Infer-Sim — a small open-source simulator for replaying inference workloads and testing routing algorithms and cache policies",
+            "C.Torch — a reverse-mode autograd engine in C (DAG + topological sort), training an MLP from scratch with custom memory management"
         ],
         links: [
             { text: "jwlabs.vercel.app", url: "https://jwlabs.vercel.app" },
@@ -24,8 +24,6 @@ const experiences = [
             { text: "Biting the Bullet (post)", url: "https://jwlabs.vercel.app/post/biting-the-bullet" },
             { text: "Infer-Sim (post)", url: "https://jwlabs.vercel.app/post/infer-sim" },
             { text: "Speculative Decoding from First Principles (post)", url: "https://jwlabs.vercel.app/post/speculative-decoding-first-principles" },
-            { text: "Tab Model for Schematic Design (post)", url: "https://jwlabs.vercel.app/post/tab-model-schematic-design" },
-            { text: "LLMs + RL for Assembly Codegen (post)", url: "https://jwlabs.vercel.app/post/llm-rl-assembly-codegen" },
             { text: "SpecSpec repo", url: "https://github.com/jwlaboratory/SpecSpec" },
             { text: "bite-the-bullet repo", url: "https://github.com/jwlaboratory/bite-the-bullet" },
             { text: "inference-sim repo", url: "https://github.com/jwlaboratory/inference-sim" },
