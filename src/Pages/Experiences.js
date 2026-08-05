@@ -6,6 +6,35 @@ import TweetBoundary from '../TweetBoundary';
 
 const experiences = [
     {
+        title: "JW Labs - Co-Founder, AI Research Lab",
+        date: "2026 - Present",
+        description: [
+            "Co-founded an independent AI research lab focused on LLM inference, speculative decoding, and KV-cache systems",
+            "SparklingTree — combined Markov correction, tree-based block diffusion drafting, and best-first search into a frontier speculator that's 19% faster than SOTA speculative decoding",
+            "SpecSpec — used LoRA specialization on diffusion draft models to make speculative decoding up to ~15% faster on Qwen3-8B; benchmarked cross-domain interference and adapter hot-swapping (PyTorch, vLLM, Modal)",
+            "Bite the Bullet — an inference-serving technique that predicts request bursts and proactively replicates KV cache from RDMA into HBM, cutting TTFT up to 50% under bursty load",
+            "Infer-Sim — open-source simulator for replaying inference workloads and testing routing algorithms and cache policies before production",
+            "C.Torch — a reverse-mode autograd engine in C (DAG + topological sort), training an MLP from scratch with custom free-list memory management"
+        ],
+        links: [
+            { text: "jwlabs.vercel.app", url: "https://jwlabs.vercel.app" },
+            { text: "GitHub Org", url: "https://github.com/jwlaboratory" },
+            { text: "SparklingTree (post)", url: "https://jwlabs.vercel.app/post/sparklingtree" },
+            { text: "Specialized Speculation (post)", url: "https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs" },
+            { text: "Biting the Bullet (post)", url: "https://jwlabs.vercel.app/post/biting-the-bullet" },
+            { text: "Infer-Sim (post)", url: "https://jwlabs.vercel.app/post/infer-sim" },
+            { text: "Speculative Decoding from First Principles (post)", url: "https://jwlabs.vercel.app/post/speculative-decoding-first-principles" },
+            { text: "Tab Model for Schematic Design (post)", url: "https://jwlabs.vercel.app/post/tab-model-schematic-design" },
+            { text: "LLMs + RL for Assembly Codegen (post)", url: "https://jwlabs.vercel.app/post/llm-rl-assembly-codegen" },
+            { text: "SpecSpec repo", url: "https://github.com/jwlaboratory/SpecSpec" },
+            { text: "bite-the-bullet repo", url: "https://github.com/jwlaboratory/bite-the-bullet" },
+            { text: "inference-sim repo", url: "https://github.com/jwlaboratory/inference-sim" },
+            { text: "CTorch repo", url: "https://github.com/jwlaboratory/CTorch" }
+        ],
+        tags: ["project", "ai"],
+        score: 0.05
+    },
+    {
         title: "Morph - Machine Learning Engineering Intern",
         date: "May 2026 - Present",
         description: [
@@ -17,43 +46,6 @@ const experiences = [
         ],
         tags: ["work-experience", "ai"],
         score: 0.1
-    },
-    {
-        title: "Bite the Bullet - LLM Inference Serving",
-        date: "2026",
-        description: [
-            "Built an inference-serving technique that predicts large request bursts and proactively replicates KV cache from RDMA into HBM",
-            "Delivers an up to 50% reduction in TTFT under bursty load"
-        ],
-        links: [
-            { text: "Github Repo", url: "https://github.com/jwlaboratory/bite-the-bullet" }
-        ],
-        tags: ["project", "ai"],
-        score: 0.55
-    },
-    {
-        title: "SpecSpec - Specializing Speculative Decoding with LoRA",
-        date: "2026",
-        description: [
-            "Used LoRA specialization on diffusion draft models to make speculative decoding up to ~15% faster on Qwen3-8B",
-            "Benchmarked cross-domain interference and adapter hot-swapping cost",
-            "Built with PyTorch, vLLM, and Modal"
-        ],
-        tags: ["project", "ai"],
-        score: 0.6
-    },
-    {
-        title: "C.Torch - PyTorch in C",
-        date: "2026",
-        description: [
-            "Built a reverse-mode autograd engine in C using a Directed Acyclic Graph and topological sort",
-            "Implemented matmul/MSE, trained an MLP from scratch, and managed low-level memory with custom free lists"
-        ],
-        links: [
-            { text: "Github Repo", url: "https://github.com/jwlaboratory/CTorch" }
-        ],
-        tags: ["project"],
-        score: 0.65
     },
     {
         title: "Mirage - 1st Place Modal Inference Track @TreeHacks 2026",
