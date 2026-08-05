@@ -6,7 +6,7 @@ A small independent research group I started, where a few friends and I tinker w
 **Research & Engineering Writing**
 | Post | Code | Summary |
 |------|------|---------|
-| [**SparklingTree: 19% faster SOTA speculative decoding**](https://jwlabs.vercel.app/post/sparklingtree) | [repo](https://github.com/jwlaboratory/sparkling-tree) | Combines first-order Markov correction (DSpark), tree-based block diffusion drafting (DDTree), and best-first search into a frontier speculator. |
+| [**SparklingTree: 30% faster than DSpark speculative decoding**](https://jwlabs.vercel.app/post/sparklingtree) | [repo](https://github.com/jwlaboratory/sparkling-tree) | Combines first-order Markov correction (DSpark), tree-based block diffusion drafting (DDTree), and best-first search into a frontier speculator. |
 | [**Specialization is (sometimes) all Speculation needs**](https://jwlabs.vercel.app/post/specialization-is-all-speculation-needs) | [repo](https://github.com/jwlaboratory/SpecSpec) | LoRA-specialized block diffusion drafters improve speculative decoding acceptance up to 46% on OOD languages (up to 15.3% wall-clock speedup). |
 | [**Biting the Bullet: Predictive Speculative KV Replication**](https://jwlabs.vercel.app/post/biting-the-bullet) | [repo](https://github.com/jwlaboratory/bite-the-bullet) | Predictive KV warming for bursty LLM inference — proactively replicating shared prefix cache to cut TTFT. |
 | [**Infer-Sim: An open-source simulator for routing & cache policies**](https://jwlabs.vercel.app/post/infer-sim) | [repo](https://github.com/jwlaboratory/inference-sim) | Lightweight simulator for replaying inference workloads and testing routing/cache policies before production. |
